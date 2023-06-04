@@ -180,6 +180,25 @@ class MdiIconsEnum {
                   'codePoint': literalNum(int.parse('0x${metadata.codepoint}')),
                   'metadata': mdiMetadataClass.generateInstance(metadata)
                 })
+                ..docs.addAll([
+                  '/// **${metadata.name}**',
+                  '///',
+                  '/// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/${metadata.name}/${metadata.version}/64.png "${metadata.name}")',
+                  '///',
+                  '///',
+                  '/// *Author: ${metadata.author}*',
+                  '///',
+                  '/// *Version: ${metadata.version}*',
+                  '///',
+                  if (metadata.tags.isNotEmpty) ...[
+                    '/// *Tags: ${metadata.tags.join(', ')}*',
+                    '///',
+                  ],
+                  if (metadata.styles.isNotEmpty) ...[
+                    '/// *Styles: ${metadata.styles.join(', ')}*',
+                    '///',
+                  ],
+                ])
                 ..annotations.addAll([
                   if (metadata.deprecated)
                     refer('Deprecated').call([
