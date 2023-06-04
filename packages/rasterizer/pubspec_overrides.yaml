@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: flutter_material_design_icons
+dependency_overrides:
+  flutter_material_design_icons:
+    path: ../material_design_icons
