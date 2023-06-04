@@ -1,5 +1,3 @@
-library material_design_icons;
+library flutter_material_design_icons;
 
-import 'package:flutter/widgets.dart';
-
-part 'icons.enum.dart';
+export 'src/icons.dart';
