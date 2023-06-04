@@ -1,0 +1,7 @@
+targets:
+  $default:
+    builders:
+      builder:icon_enum_builder:
+        generate_for: ["lib/icons.dart"]
+        options:
+          metadataPath: ../../modules/MaterialDesign-SVG/meta.json

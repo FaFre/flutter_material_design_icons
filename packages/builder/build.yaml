@@ -1,0 +1,6 @@
+builders:
+  icon_enum_builder:
+    import: "package:builder/builder.dart"
+    builder_factories: ["iconEnumBuilder"]
+    build_extensions: { ".dart": [".enum.dart"] }
+    build_to: source

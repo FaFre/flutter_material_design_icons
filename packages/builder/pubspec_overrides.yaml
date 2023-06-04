@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: code_builder
+dependency_overrides:
+  code_builder:
+    git:
+      url: https://github.com/FaFre/code_builder.git
+      ref: enum_named_arguments

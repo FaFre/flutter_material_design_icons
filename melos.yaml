@@ -1,0 +1,11 @@
+name: flutter_material_design_icons_workspace
+
+scripts:
+  generate:
+    run: cd packages/material_design_icons/ && dart run build_runner build -d
+  rasterize:
+    run: cd packages/rasterizer && flutter run -d linux lib/main.dart
+    description: Install dependencies to generate font
+
+packages:
+  - "packages/**"

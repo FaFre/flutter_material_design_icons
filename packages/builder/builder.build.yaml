@@ -1,0 +1,5 @@
+targets:
+  $default:
+    builders:
+      json_serializable:
+        enabled: true
