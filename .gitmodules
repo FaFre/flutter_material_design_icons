@@ -1,0 +1,6 @@
+[submodule "modules/MaterialDesign-Webfont"]
+	path = modules/MaterialDesign-Webfont
+	url = https://github.com/Templarian/MaterialDesign-Webfont.git
+[submodule "modules/MaterialDesign-SVG"]
+	path = modules/MaterialDesign-SVG
+	url = https://github.com/Templarian/MaterialDesign-SVG.git
