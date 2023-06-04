@@ -39,7 +39,7 @@ Future<void> generate(
 }
 
 Future<void> main(List<String> args) async {
-  const outputPath = '../../icons';
+  const outputPath = '../../docs/icons';
   const svgPath = '../../modules/MaterialDesign-SVG/svg';
 
   final generationFutures = MdiIcons.values.map(
