@@ -100,24 +100,22 @@ class MdiIconsEnum {
               ..type = refer(mdiMetadataClass.classDefinition.name)
               ..modifier = FieldModifier.final$,
           ),
-        ])
-        ..methods.addAll([
-          Method(
+          Field(
             (b) => b
               ..name = 'fontFamily'
-              ..returns = refer('String')
-              ..type = MethodType.getter
+              ..type = refer('String')
+              ..modifier = FieldModifier.final$
               ..annotations.add(refer('override'))
               ..docs.addAll([
                 '/// The font family from which the glyph for the [codePoint] will be selected.'
               ])
-              ..body = literalString('Material Design Icons').code,
+              ..assignment = literalString('Material Design Icons').code,
           ),
-          Method(
+          Field(
             (b) => b
               ..name = 'fontPackage'
-              ..returns = refer('String')
-              ..type = MethodType.getter
+              ..type = refer('String')
+              ..modifier = FieldModifier.final$
               ..annotations.add(refer('override'))
               ..docs.addAll([
                 '/// The name of the package from which the font family is included.',
@@ -129,8 +127,11 @@ class MdiIconsEnum {
                 '///',
                 '///  * [TextStyle], which describes how to use fonts from other packages.',
               ])
-              ..body = literalString('flutter_material_design_icons').code,
+              ..assignment =
+                  literalString('flutter_material_design_icons').code,
           ),
+        ])
+        ..methods.addAll([
           Method(
             (b) => b
               ..name = 'toString'

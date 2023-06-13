@@ -163573,7 +163573,7 @@ enum MdiIcons implements IconData {
 
   /// The font family from which the glyph for the [codePoint] will be selected.
   @override
-  String get fontFamily => 'Material Design Icons';
+  final String fontFamily = 'Material Design Icons';
 
   /// The name of the package from which the font family is included.
   ///
@@ -163584,7 +163584,8 @@ enum MdiIcons implements IconData {
   ///
   ///  * [TextStyle], which describes how to use fonts from other packages.
   @override
-  String get fontPackage => 'flutter_material_design_icons';
+  final String fontPackage = 'flutter_material_design_icons';
+
   @override
   String toString() =>
       'MdiIconData(U+${codePoint.toRadixString(16).toUpperCase().padLeft(5, '0')})';
