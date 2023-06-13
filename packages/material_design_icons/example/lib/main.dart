@@ -229,7 +229,7 @@ class MainApp extends StatelessWidget {
                 [filteredIcons],
               );
 
-              final gridScrollController = useScrollController();
+              final gridScrollController = PrimaryScrollController.of(context);
               final absorbPointer = useState(false);
 
               useEffect(() {
