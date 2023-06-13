@@ -6,6 +6,10 @@ scripts:
   rasterize:
     run: cd packages/rasterizer && flutter run -d linux lib/main.dart
     description: Install dependencies to generate font
+  build-app:
+    run: output=$(pwd)/docs/icon_app/ &&
+      cd packages/material_design_icons/example/ &&
+      flutter pub get && flutter build web --release -o $output
 
 packages:
   - "packages/**"
