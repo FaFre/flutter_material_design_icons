@@ -1,4 +1,4 @@
-import 'package:flutter_material_design_icons/icons.dart';
+import 'package:flutter_material_design_icons/flutter_material_design_icons.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class TokenFilterNotifier extends Notifier<List<String>> {

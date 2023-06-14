@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:ui';
 
-import 'package:flutter_material_design_icons/icons.dart';
+import 'package:flutter_material_design_icons/flutter_material_design_icons.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:path/path.dart' as path;
 

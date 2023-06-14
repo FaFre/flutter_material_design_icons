@@ -1,6 +1,6 @@
 name: flutter_material_design_icons
-description: A new Flutter package project.
-version: 0.0.1
+description: This package provides over 7000+ material icons from the Material Design Icons (MDI) project.
+version: 1.0.7296
 homepage: https://github.com/FaFre/flutter_material_design_icons
 
 environment:

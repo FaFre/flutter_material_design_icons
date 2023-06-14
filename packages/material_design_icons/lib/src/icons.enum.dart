@@ -6,7 +6,8 @@ part of 'icons.dart';
 // IconDataGenerator
 // **************************************************************************
 
-// ignore_for_file: require_trailing_commas
+// ignore_for_file: avoid_escaping_inner_quotes, require_trailing_commas
+// ignore_for_file: unused_element
 
 class MdiMetadata {
   const MdiMetadata({

@@ -156,7 +156,7 @@ packages:
       path: "../material_design_icons"
       relative: true
     source: path
-    version: "0.0.1"
+    version: "1.0.7296"
   flutter_svg:
     dependency: "direct main"
     description:

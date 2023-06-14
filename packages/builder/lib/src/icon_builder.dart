@@ -28,7 +28,11 @@ class IconDataGenerator extends Generator {
 
       final library = Library(
         (b) => b
-          ..ignoreForFile.addAll(['require_trailing_commas'])
+          ..ignoreForFile.addAll([
+            'require_trailing_commas',
+            'avoid_escaping_inner_quotes',
+            'unused_element'
+          ])
           ..body.addAll([
             MdiMetadataClass().classDefinition,
             const MdiIconsEnum().generateEnumDefinition(metadataList),
