@@ -1,0 +1,1 @@
+packages/material_design_icons/README.md

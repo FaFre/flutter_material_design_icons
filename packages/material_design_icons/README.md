@@ -1,39 +1,39 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# flutter_material_design_icons
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+This package provides over 7000+ material icons from the [Material Design Icons](https://materialdesignicons.com/) project.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+All icons and fonts in this project are [licensed](https://pictogrammers.com/docs/general/license/) under Apache 2.0.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Overview
+
+![Icon Search App](https://fafre.github.io/flutter_material_design_icons/screenshots/app.png)
+
+This package provides an `example/` which also comes in handy as a useful tool for searching and filtering icons included in this package.
+
+The app is available for web [here](https://fafre.github.io/flutter_material_design_icons/icon_app/).
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **Preview icons in code editor**
 
-## Getting started
+  ![Icon preview](https://fafre.github.io/flutter_material_design_icons/screenshots/preview.png)
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+- **Deprecation notice**
+
+  ![Deprecation](https://fafre.github.io/flutter_material_design_icons/screenshots/deprecated.png)
+
+- **Metadata enriched**
+
+  All icons are enriched with metadata derived from the MDI project like tags, styles, version and easily accessible via the icon `metadata` property.
+
+- **Iterable**
+
+  The icons are structured as an `enum` and can therefore be easily itegrated via `MdiIcons.values` for further processing or filtering in your application.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+You can use the MDI icons analog to the material icons shipped with flutter:
 
 ```dart
-const like = 'sample';
+Icon(MdiIcons.abacus)
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
