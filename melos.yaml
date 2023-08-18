@@ -10,6 +10,9 @@ scripts:
     run: output=$(pwd)/docs/icon_app/ &&
       cd packages/material_design_icons/example/ &&
       flutter pub get && flutter build web --release --base-href /flutter_material_design_icons/icon_app/ -o $output
+  clean:
+    run: melos exec "flutter clean"
+    description: Clean all Dart & Flutter packages in this project.
 
 packages:
   - "packages/**"
