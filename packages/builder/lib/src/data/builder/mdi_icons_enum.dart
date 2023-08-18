@@ -113,6 +113,19 @@ class MdiIconsEnum {
           ),
           Field(
             (b) => b
+              ..name = 'fontFamilyFallback'
+              ..type = refer('List<String>?')
+              ..modifier = FieldModifier.final$
+              ..annotations.add(refer('override'))
+              ..docs.addAll([
+                '/// The ordered list of font families to fall back on when a glyph cannot be found in a higher priority font family.',
+                '///',
+                '/// For more details, refer to the documentation of [TextStyle]',
+              ])
+              ..assignment = literalNull.code,
+          ),
+          Field(
+            (b) => b
               ..name = 'fontPackage'
               ..type = refer('String')
               ..modifier = FieldModifier.final$

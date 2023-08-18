@@ -163576,6 +163576,12 @@ enum MdiIcons implements IconData {
   @override
   final String fontFamily = 'Material Design Icons';
 
+  /// The ordered list of font families to fall back on when a glyph cannot be found in a higher priority font family.
+  ///
+  /// For more details, refer to the documentation of [TextStyle]
+  @override
+  final List<String>? fontFamilyFallback = null;
+
   /// The name of the package from which the font family is included.
   ///
   /// The name is used by the [Icon] widget when configuring the [TextStyle] so
