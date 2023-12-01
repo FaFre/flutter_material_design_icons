@@ -1466,6 +1466,82 @@ enum MdiIcons implements IconData {
         ],
       )),
 
+  /// **account-file**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/account-file/7.3.67/64.png "account-file")
+  ///
+  ///
+  /// *Author: Contributors*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  accountFile(
+      codePoint: 990375,
+      metadata: MdiMetadata(
+        name: 'account-file',
+        version: '7.3.67',
+        author: 'Contributors',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **account-file-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/account-file-outline/7.3.67/64.png "account-file-outline")
+  ///
+  ///
+  /// *Author: Contributors*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  accountFileOutline(
+      codePoint: 990376,
+      metadata: MdiMetadata(
+        name: 'account-file-outline',
+        version: '7.3.67',
+        author: 'Contributors',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **account-file-text**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/account-file-text/7.3.67/64.png "account-file-text")
+  ///
+  ///
+  /// *Author: Contributors*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  accountFileText(
+      codePoint: 990377,
+      metadata: MdiMetadata(
+        name: 'account-file-text',
+        version: '7.3.67',
+        author: 'Contributors',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **account-file-text-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/account-file-text-outline/7.3.67/64.png "account-file-text-outline")
+  ///
+  ///
+  /// *Author: Contributors*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  accountFileTextOutline(
+      codePoint: 990378,
+      metadata: MdiMetadata(
+        name: 'account-file-text-outline',
+        version: '7.3.67',
+        author: 'Contributors',
+        tags: null,
+        styles: null,
+      )),
+
   /// **account-filter**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/account-filter/2.4.85/64.png "account-filter")
@@ -12858,6 +12934,50 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **arrow-oscillating**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/arrow-oscillating/7.3.67/64.png "arrow-oscillating")
+  ///
+  ///
+  /// *Author: Matthias de Baat*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Home Automation*
+  ///
+  arrowOscillating(
+      codePoint: 990353,
+      metadata: MdiMetadata(
+        name: 'arrow-oscillating',
+        version: '7.3.67',
+        author: 'Matthias de Baat',
+        tags: ['Home Automation'],
+        styles: null,
+      )),
+
+  /// **arrow-oscillating-off**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/arrow-oscillating-off/7.3.67/64.png "arrow-oscillating-off")
+  ///
+  ///
+  /// *Author: Matthias de Baat*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Home Automation*
+  ///
+  /// *Styles: off*
+  ///
+  arrowOscillatingOff(
+      codePoint: 990354,
+      metadata: MdiMetadata(
+        name: 'arrow-oscillating-off',
+        version: '7.3.67',
+        author: 'Matthias de Baat',
+        tags: ['Home Automation'],
+        styles: ['off'],
+      )),
+
   /// **arrow-projectile**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/arrow-projectile/6.2.95/64.png "arrow-projectile")
@@ -16636,6 +16756,51 @@ enum MdiIcons implements IconData {
         author: 'Michael Richins',
         tags: ['Transportation + Flying'],
         styles: ['outline'],
+      )),
+
+  /// **bag-personal-plus**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/bag-personal-plus/7.3.67/64.png "bag-personal-plus")
+  ///
+  ///
+  /// *Author: Matthew Terry*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: plus*
+  ///
+  bagPersonalPlus(
+      codePoint: 990372,
+      metadata: MdiMetadata(
+        name: 'bag-personal-plus',
+        version: '7.3.67',
+        author: 'Matthew Terry',
+        tags: null,
+        styles: ['plus'],
+      )),
+
+  /// **bag-personal-plus-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/bag-personal-plus-outline/7.3.67/64.png "bag-personal-plus-outline")
+  ///
+  ///
+  /// *Author: Matthew Terry*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: outline, plus*
+  ///
+  bagPersonalPlusOutline(
+      codePoint: 990373,
+      metadata: MdiMetadata(
+        name: 'bag-personal-plus-outline',
+        version: '7.3.67',
+        author: 'Matthew Terry',
+        tags: null,
+        styles: [
+          'outline',
+          'plus',
+        ],
       )),
 
   /// **bag-personal-tag**
@@ -28024,6 +28189,25 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **bus-sign**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/bus-sign/7.3.67/64.png "bus-sign")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  busSign(
+      codePoint: 990401,
+      metadata: MdiMetadata(
+        name: 'bus-sign',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: null,
+      )),
+
   /// **bus-stop**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/bus-stop/4.1.95/64.png "bus-stop")
@@ -28098,6 +28282,25 @@ enum MdiIcons implements IconData {
           'Navigation',
         ],
         styles: ['variant'],
+      )),
+
+  /// **bus-wrench**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/bus-wrench/7.3.67/64.png "bus-wrench")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  busWrench(
+      codePoint: 990402,
+      metadata: MdiMetadata(
+        name: 'bus-wrench',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: null,
       )),
 
   /// **butterfly**
@@ -32338,6 +32541,32 @@ enum MdiIcons implements IconData {
         styles: ['lock'],
       )),
 
+  /// **car-door-lock-open**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/car-door-lock-open/7.3.67/64.png "car-door-lock-open")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Automotive, Lock*
+  ///
+  /// *Styles: lock*
+  ///
+  carDoorLockOpen(
+      codePoint: 990337,
+      metadata: MdiMetadata(
+        name: 'car-door-lock-open',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: [
+          'Automotive',
+          'Lock',
+        ],
+        styles: ['lock'],
+      )),
+
   /// **car-electric**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/car-electric/3.0.39/64.png "car-electric")
@@ -35046,6 +35275,25 @@ enum MdiIcons implements IconData {
         styles: ['clock'],
       )),
 
+  /// **cash-edit**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/cash-edit/7.3.67/64.png "cash-edit")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  cashEdit(
+      codePoint: 990379,
+      metadata: MdiMetadata(
+        name: 'cash-edit',
+        version: '7.3.67',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: null,
+      )),
+
   /// **cash-fast**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/cash-fast/6.2.95/64.png "cash-fast")
@@ -36511,6 +36759,27 @@ enum MdiIcons implements IconData {
         author: 'Google',
         tags: null,
         styles: null,
+      )),
+
+  /// **charity-search**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/charity-search/7.3.67/64.png "charity-search")
+  ///
+  ///
+  /// *Author: Ryan Donahue*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: search*
+  ///
+  charitySearch(
+      codePoint: 990338,
+      metadata: MdiMetadata(
+        name: 'charity-search',
+        version: '7.3.67',
+        author: 'Ryan Donahue',
+        tags: null,
+        styles: ['search'],
       )),
 
   /// **chart-arc**
@@ -43895,6 +44164,52 @@ enum MdiIcons implements IconData {
         styles: ['outline'],
       )),
 
+  /// **cloud-key**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/cloud-key/7.3.67/64.png "cloud-key")
+  ///
+  ///
+  /// *Author: frankgrinaert*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Cloud*
+  ///
+  /// *Styles: key*
+  ///
+  cloudKey(
+      codePoint: 990369,
+      metadata: MdiMetadata(
+        name: 'cloud-key',
+        version: '7.3.67',
+        author: 'frankgrinaert',
+        tags: ['Cloud'],
+        styles: ['key'],
+      )),
+
+  /// **cloud-key-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/cloud-key-outline/7.3.67/64.png "cloud-key-outline")
+  ///
+  ///
+  /// *Author: frankgrinaert*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Cloud*
+  ///
+  /// *Styles: key*
+  ///
+  cloudKeyOutline(
+      codePoint: 990370,
+      metadata: MdiMetadata(
+        name: 'cloud-key-outline',
+        version: '7.3.67',
+        author: 'frankgrinaert',
+        tags: ['Cloud'],
+        styles: ['key'],
+      )),
+
   /// **cloud-lock**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/cloud-lock/4.5.95/64.png "cloud-lock")
@@ -44837,6 +45152,90 @@ enum MdiIcons implements IconData {
         name: 'code-array',
         version: '1.5.54',
         author: 'Austin Andrews',
+        tags: ['Developer / Languages'],
+        styles: null,
+      )),
+
+  /// **code-block-braces**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/code-block-braces/7.3.67/64.png "code-block-braces")
+  ///
+  ///
+  /// *Author: frankgrinaert*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Developer / Languages*
+  ///
+  codeBlockBraces(
+      codePoint: 990339,
+      metadata: MdiMetadata(
+        name: 'code-block-braces',
+        version: '7.3.67',
+        author: 'frankgrinaert',
+        tags: ['Developer / Languages'],
+        styles: null,
+      )),
+
+  /// **code-block-brackets**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/code-block-brackets/7.3.67/64.png "code-block-brackets")
+  ///
+  ///
+  /// *Author: frankgrinaert*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Developer / Languages*
+  ///
+  codeBlockBrackets(
+      codePoint: 990340,
+      metadata: MdiMetadata(
+        name: 'code-block-brackets',
+        version: '7.3.67',
+        author: 'frankgrinaert',
+        tags: ['Developer / Languages'],
+        styles: null,
+      )),
+
+  /// **code-block-parentheses**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/code-block-parentheses/7.3.67/64.png "code-block-parentheses")
+  ///
+  ///
+  /// *Author: frankgrinaert*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Developer / Languages*
+  ///
+  codeBlockParentheses(
+      codePoint: 990341,
+      metadata: MdiMetadata(
+        name: 'code-block-parentheses',
+        version: '7.3.67',
+        author: 'frankgrinaert',
+        tags: ['Developer / Languages'],
+        styles: null,
+      )),
+
+  /// **code-block-tags**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/code-block-tags/7.3.67/64.png "code-block-tags")
+  ///
+  ///
+  /// *Author: frankgrinaert*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Developer / Languages*
+  ///
+  codeBlockTags(
+      codePoint: 990342,
+      metadata: MdiMetadata(
+        name: 'code-block-tags',
+        version: '7.3.67',
+        author: 'frankgrinaert',
         tags: ['Developer / Languages'],
         styles: null,
       )),
@@ -56277,6 +56676,29 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **door-closed-cancel**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/door-closed-cancel/7.3.67/64.png "door-closed-cancel")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Home Automation*
+  ///
+  /// *Styles: cancel*
+  ///
+  doorClosedCancel(
+      codePoint: 990355,
+      metadata: MdiMetadata(
+        name: 'door-closed-cancel',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: ['Home Automation'],
+        styles: ['cancel'],
+      )),
+
   /// **door-closed-lock**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/door-closed-lock/4.2.95/64.png "door-closed-lock")
@@ -57539,6 +57961,48 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **earth-arrow-down**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/earth-arrow-down/7.3.67/64.png "earth-arrow-down")
+  ///
+  ///
+  /// *Author: frankgrinaert*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: arrow*
+  ///
+  earthArrowDown(
+      codePoint: 990343,
+      metadata: MdiMetadata(
+        name: 'earth-arrow-down',
+        version: '7.3.67',
+        author: 'frankgrinaert',
+        tags: null,
+        styles: ['arrow'],
+      )),
+
+  /// **earth-arrow-left**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/earth-arrow-left/7.3.67/64.png "earth-arrow-left")
+  ///
+  ///
+  /// *Author: frankgrinaert*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: arrow*
+  ///
+  earthArrowLeft(
+      codePoint: 990344,
+      metadata: MdiMetadata(
+        name: 'earth-arrow-left',
+        version: '7.3.67',
+        author: 'frankgrinaert',
+        tags: null,
+        styles: ['arrow'],
+      )),
+
   /// **earth-arrow-right**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/earth-arrow-right/4.8.95/64.png "earth-arrow-right")
@@ -57559,6 +58023,27 @@ enum MdiIcons implements IconData {
         version: '4.8.95',
         author: 'Michael Irigoyen',
         tags: ['Navigation'],
+        styles: ['arrow'],
+      )),
+
+  /// **earth-arrow-up**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/earth-arrow-up/7.3.67/64.png "earth-arrow-up")
+  ///
+  ///
+  /// *Author: frankgrinaert*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: arrow*
+  ///
+  earthArrowUp(
+      codePoint: 990345,
+      metadata: MdiMetadata(
+        name: 'earth-arrow-up',
+        version: '7.3.67',
+        author: 'frankgrinaert',
+        tags: null,
         styles: ['arrow'],
       )),
 
@@ -59826,6 +60311,44 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **emoticon-minus**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/emoticon-minus/7.3.67/64.png "emoticon-minus")
+  ///
+  ///
+  /// *Author: Austin Andrews*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  emoticonMinus(
+      codePoint: 990386,
+      metadata: MdiMetadata(
+        name: 'emoticon-minus',
+        version: '7.3.67',
+        author: 'Austin Andrews',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **emoticon-minus-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/emoticon-minus-outline/7.3.67/64.png "emoticon-minus-outline")
+  ///
+  ///
+  /// *Author: Austin Andrews*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  emoticonMinusOutline(
+      codePoint: 990387,
+      metadata: MdiMetadata(
+        name: 'emoticon-minus-outline',
+        version: '7.3.67',
+        author: 'Austin Andrews',
+        tags: null,
+        styles: null,
+      )),
+
   /// **emoticon-neutral**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/emoticon-neutral/3.2.89/64.png "emoticon-neutral")
@@ -59891,6 +60414,44 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **emoticon-plus**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/emoticon-plus/7.3.67/64.png "emoticon-plus")
+  ///
+  ///
+  /// *Author: bakotamas*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  emoticonPlus(
+      codePoint: 990388,
+      metadata: MdiMetadata(
+        name: 'emoticon-plus',
+        version: '7.3.67',
+        author: 'bakotamas',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **emoticon-plus-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/emoticon-plus-outline/7.3.67/64.png "emoticon-plus-outline")
+  ///
+  ///
+  /// *Author: bakotamas*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  emoticonPlusOutline(
+      codePoint: 990389,
+      metadata: MdiMetadata(
+        name: 'emoticon-plus-outline',
+        version: '7.3.67',
+        author: 'bakotamas',
+        tags: null,
+        styles: null,
+      )),
+
   /// **emoticon-poop**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/emoticon-poop/1.5.54/64.png "emoticon-poop")
@@ -59933,6 +60494,44 @@ enum MdiIcons implements IconData {
         author: 'Michael Irigoyen',
         tags: ['Emoji'],
         styles: ['outline'],
+      )),
+
+  /// **emoticon-remove**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/emoticon-remove/7.3.67/64.png "emoticon-remove")
+  ///
+  ///
+  /// *Author: Austin Andrews*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  emoticonRemove(
+      codePoint: 990390,
+      metadata: MdiMetadata(
+        name: 'emoticon-remove',
+        version: '7.3.67',
+        author: 'Austin Andrews',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **emoticon-remove-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/emoticon-remove-outline/7.3.67/64.png "emoticon-remove-outline")
+  ///
+  ///
+  /// *Author: Austin Andrews*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  emoticonRemoveOutline(
+      codePoint: 990391,
+      metadata: MdiMetadata(
+        name: 'emoticon-remove-outline',
+        version: '7.3.67',
+        author: 'Austin Andrews',
+        tags: null,
+        styles: null,
       )),
 
   /// **emoticon-sad**
@@ -60735,7 +61334,7 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 4.1.95*
   ///
-  /// *Tags: Hardware / Tools*
+  /// *Tags: Hardware / Tools, Transportation + Other*
   ///
   excavator(
       codePoint: 987173,
@@ -60743,7 +61342,10 @@ enum MdiIcons implements IconData {
         name: 'excavator',
         version: '4.1.95',
         author: 'Michael Irigoyen',
-        tags: ['Hardware / Tools'],
+        tags: [
+          'Hardware / Tools',
+          'Transportation + Other',
+        ],
         styles: null,
       )),
 
@@ -61182,6 +61784,25 @@ enum MdiIcons implements IconData {
         name: 'eye-circle-outline',
         version: '3.0.39',
         author: 'Michael Richins',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **eye-closed**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/eye-closed/7.3.67/64.png "eye-closed")
+  ///
+  ///
+  /// *Author: joshua-maros*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  eyeClosed(
+      codePoint: 990371,
+      metadata: MdiMetadata(
+        name: 'eye-closed',
+        version: '7.3.67',
+        author: 'joshua-maros',
         tags: null,
         styles: null,
       )),
@@ -67675,6 +68296,25 @@ enum MdiIcons implements IconData {
         author: 'Michael Irigoyen',
         tags: ['Home Automation'],
         styles: ['off'],
+      )),
+
+  /// **fire-station**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/fire-station/7.3.67/64.png "fire-station")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  fireStation(
+      codePoint: 990403,
+      metadata: MdiMetadata(
+        name: 'fire-station',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: null,
       )),
 
   /// **fire-truck**
@@ -77615,6 +78255,44 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **gas-station-in-use**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/gas-station-in-use/7.3.67/64.png "gas-station-in-use")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  gasStationInUse(
+      codePoint: 990404,
+      metadata: MdiMetadata(
+        name: 'gas-station-in-use',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **gas-station-in-use-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/gas-station-in-use-outline/7.3.67/64.png "gas-station-in-use-outline")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  gasStationInUseOutline(
+      codePoint: 990405,
+      metadata: MdiMetadata(
+        name: 'gas-station-in-use-outline',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: null,
+      )),
+
   /// **gas-station-off**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/gas-station-off/5.1.45/64.png "gas-station-off")
@@ -78186,6 +78864,72 @@ enum MdiIcons implements IconData {
         version: '1.5.54',
         author: 'Austin Andrews',
         tags: null,
+        styles: null,
+      )),
+
+  /// **generator-mobile**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/generator-mobile/7.3.67/64.png "generator-mobile")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Home Automation, Transportation + Other*
+  ///
+  generatorMobile(
+      codePoint: 990346,
+      metadata: MdiMetadata(
+        name: 'generator-mobile',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: [
+          'Home Automation',
+          'Transportation + Other',
+        ],
+        styles: null,
+      )),
+
+  /// **generator-portable**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/generator-portable/7.3.67/64.png "generator-portable")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Home Automation*
+  ///
+  generatorPortable(
+      codePoint: 990347,
+      metadata: MdiMetadata(
+        name: 'generator-portable',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: ['Home Automation'],
+        styles: null,
+      )),
+
+  /// **generator-stationary**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/generator-stationary/7.3.67/64.png "generator-stationary")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Home Automation*
+  ///
+  generatorStationary(
+      codePoint: 990348,
+      metadata: MdiMetadata(
+        name: 'generator-stationary',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: ['Home Automation'],
         styles: null,
       )),
 
@@ -83137,6 +83881,27 @@ enum MdiIcons implements IconData {
         ],
       )),
 
+  /// **heart-search**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/heart-search/7.3.67/64.png "heart-search")
+  ///
+  ///
+  /// *Author: Ryan Donahue*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: search*
+  ///
+  heartSearch(
+      codePoint: 990349,
+      metadata: MdiMetadata(
+        name: 'heart-search',
+        version: '7.3.67',
+        author: 'Ryan Donahue',
+        tags: null,
+        styles: ['search'],
+      )),
+
   /// **heart-settings**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/heart-settings/5.7.55/64.png "heart-settings")
@@ -85947,6 +86712,27 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **hours-12**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/hours-12/7.3.67/64.png "hours-12")
+  ///
+  ///
+  /// *Author: circa1665*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Date / Time*
+  ///
+  hours12(
+      codePoint: 990356,
+      metadata: MdiMetadata(
+        name: 'hours-12',
+        version: '7.3.67',
+        author: 'circa1665',
+        tags: ['Date / Time'],
+        styles: null,
+      )),
+
   /// **hours-24**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/hours-24/5.2.45/64.png "hours-24")
@@ -85966,6 +86752,46 @@ enum MdiIcons implements IconData {
         author: 'Haley Halcyon',
         tags: ['Date / Time'],
         styles: null,
+      )),
+
+  /// **hub**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/hub/7.3.67/64.png "hub")
+  ///
+  ///
+  /// *Author: Google*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  hub(
+      codePoint: 990357,
+      metadata: MdiMetadata(
+        name: 'hub',
+        version: '7.3.67',
+        author: 'Google',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **hub-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/hub-outline/7.3.67/64.png "hub-outline")
+  ///
+  ///
+  /// *Author: Google*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: outline*
+  ///
+  hubOutline(
+      codePoint: 990358,
+      metadata: MdiMetadata(
+        name: 'hub-outline',
+        version: '7.3.67',
+        author: 'Google',
+        tags: null,
+        styles: ['outline'],
       )),
 
   /// **hubspot**
@@ -86278,6 +87104,27 @@ enum MdiIcons implements IconData {
         name: 'human-female-female',
         version: '2.6.95',
         author: 'Henrique César Madeira',
+        tags: ['People / Family'],
+        styles: null,
+      )),
+
+  /// **human-female-female-child**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/human-female-female-child/7.3.67/64.png "human-female-female-child")
+  ///
+  ///
+  /// *Author: Michael Irigoyen*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: People / Family*
+  ///
+  humanFemaleFemaleChild(
+      codePoint: 990350,
+      metadata: MdiMetadata(
+        name: 'human-female-female-child',
+        version: '7.3.67',
+        author: 'Michael Irigoyen',
         tags: ['People / Family'],
         styles: null,
       )),
@@ -86648,6 +87495,27 @@ enum MdiIcons implements IconData {
         name: 'human-male-male',
         version: '2.6.95',
         author: 'Henrique César Madeira',
+        tags: ['People / Family'],
+        styles: null,
+      )),
+
+  /// **human-male-male-child**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/human-male-male-child/7.3.67/64.png "human-male-male-child")
+  ///
+  ///
+  /// *Author: Michael Irigoyen*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: People / Family*
+  ///
+  humanMaleMaleChild(
+      codePoint: 990351,
+      metadata: MdiMetadata(
+        name: 'human-male-male-child',
+        version: '7.3.67',
+        author: 'Michael Irigoyen',
         tags: ['People / Family'],
         styles: null,
       )),
@@ -88039,6 +88907,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 5.1.45*
   ///
+  /// *Styles: remove*
+  ///
   imageRemove(
       codePoint: 988184,
       metadata: MdiMetadata(
@@ -88046,7 +88916,7 @@ enum MdiIcons implements IconData {
         version: '5.1.45',
         author: 'Austin Andrews',
         tags: null,
-        styles: null,
+        styles: ['remove'],
       )),
 
   /// **image-remove-outline**
@@ -88058,6 +88928,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 6.9.96*
   ///
+  /// *Tags: Photography*
+  ///
   /// *Styles: outline, remove*
   ///
   imageRemoveOutline(
@@ -88066,7 +88938,7 @@ enum MdiIcons implements IconData {
         name: 'image-remove-outline',
         version: '6.9.96',
         author: 'Colton Wiscombe',
-        tags: null,
+        tags: ['Photography'],
         styles: [
           'outline',
           'remove',
@@ -89391,6 +90263,27 @@ enum MdiIcons implements IconData {
         author: 'Michael Irigoyen',
         tags: ['Places'],
         styles: null,
+      )),
+
+  /// **island-variant**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/island-variant/7.3.67/64.png "island-variant")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: variant*
+  ///
+  islandVariant(
+      codePoint: 990406,
+      metadata: MdiMetadata(
+        name: 'island-variant',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: ['variant'],
       )),
 
   /// **iv-bag**
@@ -94712,6 +95605,72 @@ enum MdiIcons implements IconData {
         ],
       )),
 
+  /// **link-circle**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/link-circle/7.3.67/64.png "link-circle")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: circle*
+  ///
+  linkCircle(
+      codePoint: 990380,
+      metadata: MdiMetadata(
+        name: 'link-circle',
+        version: '7.3.67',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: ['circle'],
+      )),
+
+  /// **link-circle-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/link-circle-outline/7.3.67/64.png "link-circle-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: circle, outline*
+  ///
+  linkCircleOutline(
+      codePoint: 990381,
+      metadata: MdiMetadata(
+        name: 'link-circle-outline',
+        version: '7.3.67',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: [
+          'circle',
+          'outline',
+        ],
+      )),
+
+  /// **link-edit**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/link-edit/7.3.67/64.png "link-edit")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: edit*
+  ///
+  linkEdit(
+      codePoint: 990382,
+      metadata: MdiMetadata(
+        name: 'link-edit',
+        version: '7.3.67',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: ['edit'],
+      )),
+
   /// **link-lock**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/link-lock/4.2.95/64.png "link-lock")
@@ -96066,7 +97025,7 @@ enum MdiIcons implements IconData {
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/login/1.5.54/64.png "login")
   ///
   ///
-  /// *Author: Austin Andrews*
+  /// *Author: Google*
   ///
   /// *Version: 1.5.54*
   ///
@@ -96075,7 +97034,7 @@ enum MdiIcons implements IconData {
       metadata: MdiMetadata(
         name: 'login',
         version: '1.5.54',
-        author: 'Austin Andrews',
+        author: 'Google',
         tags: null,
         styles: null,
       )),
@@ -96104,7 +97063,7 @@ enum MdiIcons implements IconData {
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/logout/1.5.54/64.png "logout")
   ///
   ///
-  /// *Author: Austin Andrews*
+  /// *Author: Google*
   ///
   /// *Version: 1.5.54*
   ///
@@ -96113,7 +97072,7 @@ enum MdiIcons implements IconData {
       metadata: MdiMetadata(
         name: 'logout',
         version: '1.5.54',
-        author: 'Austin Andrews',
+        author: 'Google',
         tags: null,
         styles: null,
       )),
@@ -98616,6 +99575,27 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **memory-arrow-down**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/memory-arrow-down/7.3.67/64.png "memory-arrow-down")
+  ///
+  ///
+  /// *Author: Michael Irigoyen*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: arrow*
+  ///
+  memoryArrowDown(
+      codePoint: 990374,
+      metadata: MdiMetadata(
+        name: 'memory-arrow-down',
+        version: '7.3.67',
+        author: 'Michael Irigoyen',
+        tags: null,
+        styles: ['arrow'],
+      )),
+
   /// **menorah**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/menorah/6.1.95/64.png "menorah")
@@ -98680,6 +99660,27 @@ enum MdiIcons implements IconData {
         version: '1.5.54',
         author: 'Google',
         tags: null,
+        styles: null,
+      )),
+
+  /// **menu-close**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/menu-close/7.3.67/64.png "menu-close")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Navigation*
+  ///
+  menuClose(
+      codePoint: 990352,
+      metadata: MdiMetadata(
+        name: 'menu-close',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: ['Navigation'],
         styles: null,
       )),
 
@@ -113082,6 +114083,27 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **passport-alert**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/passport-alert/7.3.67/64.png "passport-alert")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: alert*
+  ///
+  passportAlert(
+      codePoint: 990392,
+      metadata: MdiMetadata(
+        name: 'passport-alert',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: ['alert'],
+      )),
+
   /// **passport-biometric**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/passport-biometric/3.5.94/64.png "passport-biometric")
@@ -113099,6 +114121,111 @@ enum MdiIcons implements IconData {
         author: 'GreenTurtwig',
         tags: null,
         styles: null,
+      )),
+
+  /// **passport-cancel**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/passport-cancel/7.3.67/64.png "passport-cancel")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: cancel*
+  ///
+  passportCancel(
+      codePoint: 990393,
+      metadata: MdiMetadata(
+        name: 'passport-cancel',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: ['cancel'],
+      )),
+
+  /// **passport-check**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/passport-check/7.3.67/64.png "passport-check")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: check*
+  ///
+  passportCheck(
+      codePoint: 990394,
+      metadata: MdiMetadata(
+        name: 'passport-check',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: ['check'],
+      )),
+
+  /// **passport-minus**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/passport-minus/7.3.67/64.png "passport-minus")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: minus*
+  ///
+  passportMinus(
+      codePoint: 990395,
+      metadata: MdiMetadata(
+        name: 'passport-minus',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: ['minus'],
+      )),
+
+  /// **passport-plus**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/passport-plus/7.3.67/64.png "passport-plus")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: plus*
+  ///
+  passportPlus(
+      codePoint: 990396,
+      metadata: MdiMetadata(
+        name: 'passport-plus',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: ['plus'],
+      )),
+
+  /// **passport-remove**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/passport-remove/7.3.67/64.png "passport-remove")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: remove*
+  ///
+  passportRemove(
+      codePoint: 990397,
+      metadata: MdiMetadata(
+        name: 'passport-remove',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: ['remove'],
       )),
 
   /// **pasta**
@@ -117834,6 +118961,25 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **pocket**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/pocket/7.3.67/64.png "pocket")
+  ///
+  ///
+  /// *Author: Contributors*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  pocket(
+      codePoint: 990398,
+      metadata: MdiMetadata(
+        name: 'pocket',
+        version: '7.3.67',
+        author: 'Contributors',
+        tags: null,
+        styles: null,
+      )),
+
   /// **podcast**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/podcast/2.4.85/64.png "podcast")
@@ -121813,6 +122959,25 @@ enum MdiIcons implements IconData {
         name: 'quality-medium',
         version: '2.5.94',
         author: 'Michael Irigoyen',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **queue-first-in-last-out**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/queue-first-in-last-out/7.3.67/64.png "queue-first-in-last-out")
+  ///
+  ///
+  /// *Author: mschutti*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  queueFirstInLastOut(
+      codePoint: 990383,
+      metadata: MdiMetadata(
+        name: 'queue-first-in-last-out',
+        version: '7.3.67',
+        author: 'mschutti',
         tags: null,
         styles: null,
       )),
@@ -127078,6 +128243,29 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **router-network-wireless**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/router-network-wireless/7.3.67/64.png "router-network-wireless")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Device / Tech*
+  ///
+  /// *Styles: network*
+  ///
+  routerNetworkWireless(
+      codePoint: 990359,
+      metadata: MdiMetadata(
+        name: 'router-network-wireless',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: ['Device / Tech'],
+        styles: ['network'],
+      )),
+
   /// **router-wireless**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/router-wireless/1.5.54/64.png "router-wireless")
@@ -130122,6 +131310,30 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **server-minus-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/server-minus-outline/7.3.67/64.png "server-minus-outline")
+  ///
+  ///
+  /// *Author: Kadensvw*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: minus, outline*
+  ///
+  serverMinusOutline(
+      codePoint: 990360,
+      metadata: MdiMetadata(
+        name: 'server-minus-outline',
+        version: '7.3.67',
+        author: 'Kadensvw',
+        tags: null,
+        styles: [
+          'minus',
+          'outline',
+        ],
+      )),
+
   /// **server-network**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/server-network/1.5.54/64.png "server-network")
@@ -130160,6 +131372,30 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **server-network-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/server-network-outline/7.3.67/64.png "server-network-outline")
+  ///
+  ///
+  /// *Author: Kadensvw*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: network, outline*
+  ///
+  serverNetworkOutline(
+      codePoint: 990361,
+      metadata: MdiMetadata(
+        name: 'server-network-outline',
+        version: '7.3.67',
+        author: 'Kadensvw',
+        tags: null,
+        styles: [
+          'network',
+          'outline',
+        ],
+      )),
+
   /// **server-off**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/server-off/1.5.54/64.png "server-off")
@@ -130179,6 +131415,27 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **server-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/server-outline/7.3.67/64.png "server-outline")
+  ///
+  ///
+  /// *Author: Kadensvw*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: outline*
+  ///
+  serverOutline(
+      codePoint: 990362,
+      metadata: MdiMetadata(
+        name: 'server-outline',
+        version: '7.3.67',
+        author: 'Kadensvw',
+        tags: null,
+        styles: ['outline'],
+      )),
+
   /// **server-plus**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/server-plus/1.5.54/64.png "server-plus")
@@ -130196,6 +131453,30 @@ enum MdiIcons implements IconData {
         author: 'Austin Andrews',
         tags: null,
         styles: null,
+      )),
+
+  /// **server-plus-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/server-plus-outline/7.3.67/64.png "server-plus-outline")
+  ///
+  ///
+  /// *Author: Kadensvw*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: outline, plus*
+  ///
+  serverPlusOutline(
+      codePoint: 990363,
+      metadata: MdiMetadata(
+        name: 'server-plus-outline',
+        version: '7.3.67',
+        author: 'Kadensvw',
+        tags: null,
+        styles: [
+          'outline',
+          'plus',
+        ],
       )),
 
   /// **server-remove**
@@ -144396,6 +145677,51 @@ enum MdiIcons implements IconData {
         ],
       )),
 
+  /// **tag-edit**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/tag-edit/7.3.67/64.png "tag-edit")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: edit*
+  ///
+  tagEdit(
+      codePoint: 990364,
+      metadata: MdiMetadata(
+        name: 'tag-edit',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: ['edit'],
+      )),
+
+  /// **tag-edit-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/tag-edit-outline/7.3.67/64.png "tag-edit-outline")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Styles: edit, outline*
+  ///
+  tagEditOutline(
+      codePoint: 990365,
+      metadata: MdiMetadata(
+        name: 'tag-edit-outline',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: [
+          'edit',
+          'outline',
+        ],
+      )),
+
   /// **tag-faces**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/tag-faces/1.5.54/64.png "tag-faces")
@@ -150632,6 +151958,25 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **train-bus**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/train-bus/7.3.67/64.png "train-bus")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  trainBus(
+      codePoint: 990407,
+      metadata: MdiMetadata(
+        name: 'train-bus',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: null,
+        styles: null,
+      )),
+
   /// **train-car**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/train-car/3.0.39/64.png "train-car")
@@ -152668,6 +154013,50 @@ enum MdiIcons implements IconData {
         ],
       )),
 
+  /// **truck-off-road**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/truck-off-road/7.3.67/64.png "truck-off-road")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Transportation + Other*
+  ///
+  truckOffRoad(
+      codePoint: 990366,
+      metadata: MdiMetadata(
+        name: 'truck-off-road',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: ['Transportation + Other'],
+        styles: null,
+      )),
+
+  /// **truck-off-road-off**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/truck-off-road-off/7.3.67/64.png "truck-off-road-off")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Transportation + Other*
+  ///
+  /// *Styles: off*
+  ///
+  truckOffRoadOff(
+      codePoint: 990367,
+      metadata: MdiMetadata(
+        name: 'truck-off-road-off',
+        version: '7.3.67',
+        author: 'Michael Richins',
+        tags: ['Transportation + Other'],
+        styles: ['off'],
+      )),
+
   /// **truck-outline**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/truck-outline/4.7.95/64.png "truck-outline")
@@ -154180,6 +155569,25 @@ enum MdiIcons implements IconData {
         name: 'usb',
         version: '1.5.54',
         author: 'Google',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **usb-c-port**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/usb-c-port/7.3.67/64.png "usb-c-port")
+  ///
+  ///
+  /// *Author: Austin Andrews*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  usbCPort(
+      codePoint: 990399,
+      metadata: MdiMetadata(
+        name: 'usb-c-port',
+        version: '7.3.67',
+        author: 'Austin Andrews',
         tags: null,
         styles: null,
       )),
@@ -156085,6 +157493,27 @@ enum MdiIcons implements IconData {
         name: 'video-stabilization',
         version: '2.3.50',
         author: 'Google',
+        tags: ['Video / Movie'],
+        styles: null,
+      )),
+
+  /// **video-standard-definition**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/video-standard-definition/7.3.67/64.png "video-standard-definition")
+  ///
+  ///
+  /// *Author: Michael Richins*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  /// *Tags: Video / Movie*
+  ///
+  videoStandardDefinition(
+      codePoint: 990368,
+      metadata: MdiMetadata(
+        name: 'video-standard-definition',
+        version: '7.3.67',
+        author: 'Michael Richins',
         tags: ['Video / Movie'],
         styles: null,
       )),
@@ -159482,6 +160911,63 @@ enum MdiIcons implements IconData {
         version: '3.8.95',
         author: 'Michael Irigoyen',
         tags: ['Transportation + Water'],
+        styles: null,
+      )),
+
+  /// **wave-arrow-down**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/wave-arrow-down/7.3.67/64.png "wave-arrow-down")
+  ///
+  ///
+  /// *Author: Contributors*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  waveArrowDown(
+      codePoint: 990384,
+      metadata: MdiMetadata(
+        name: 'wave-arrow-down',
+        version: '7.3.67',
+        author: 'Contributors',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **wave-arrow-up**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/wave-arrow-up/7.3.67/64.png "wave-arrow-up")
+  ///
+  ///
+  /// *Author: Contributors*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  waveArrowUp(
+      codePoint: 990385,
+      metadata: MdiMetadata(
+        name: 'wave-arrow-up',
+        version: '7.3.67',
+        author: 'Contributors',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **wave-undercurrent**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/wave-undercurrent/7.3.67/64.png "wave-undercurrent")
+  ///
+  ///
+  /// *Author: Austin Andrews*
+  ///
+  /// *Version: 7.3.67*
+  ///
+  waveUndercurrent(
+      codePoint: 990400,
+      metadata: MdiMetadata(
+        name: 'wave-undercurrent',
+        version: '7.3.67',
+        author: 'Austin Andrews',
+        tags: null,
         styles: null,
       )),
 
