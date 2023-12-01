@@ -3,16 +3,27 @@ name: flutter_material_design_icons_workspace
 scripts:
   generate:
     run: cd packages/material_design_icons/ && dart run build_runner build -d
+
+  upgrade:
+    run: melos exec -c 1 "flutter pub upgrade"
+    description: Upgrade all dependencies for Dart & Flutter packages in this project.
+
+  upgrade-major:
+    run: melos exec -c 1 "flutter pub upgrade --major-versions"
+    description: Upgrade all dependencies for Dart & Flutter packages in this project.
+
+  clean:
+    run: melos exec "flutter clean"
+    description: Clean all Dart & Flutter packages in this project.
+
   rasterize:
     run: cd packages/rasterizer && flutter run -d linux lib/main.dart
     description: Install dependencies to generate font
+
   build-app:
     run: output=$(pwd)/docs/icon_app/ &&
       cd packages/material_design_icons/example/ &&
       flutter pub get && flutter build web --release --base-href /flutter_material_design_icons/icon_app/ --no-tree-shake-icons -o $output
-  clean:
-    run: melos exec "flutter clean"
-    description: Clean all Dart & Flutter packages in this project.
 
 packages:
   - "packages/**"
