@@ -1,3 +1,6 @@
+## 1.1.7367
+* Upgraded Material Design Icons to v7.3.67
+
 ## 1.1.7296
 
 * Override `fontFamilyFallback` to support Flutter 3.13
