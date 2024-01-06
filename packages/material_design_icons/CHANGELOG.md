@@ -1,3 +1,6 @@
+## 1.1.7447
+* Upgraded Material Design Icons to v7.4.47
+
 ## 1.1.7367
 * Upgraded Material Design Icons to v7.3.67
 
