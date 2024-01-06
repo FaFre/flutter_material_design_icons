@@ -672,6 +672,60 @@ enum MdiIcons implements IconData {
         styles: ['box'],
       )),
 
+  /// **account-box-edit-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/account-box-edit-outline/7.4.47/64.png "account-box-edit-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Account / User*
+  ///
+  /// *Styles: account, edit, outline*
+  ///
+  accountBoxEditOutline(
+      codePoint: 990408,
+      metadata: MdiMetadata(
+        name: 'account-box-edit-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Account / User'],
+        styles: [
+          'account',
+          'edit',
+          'outline',
+        ],
+      )),
+
+  /// **account-box-minus-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/account-box-minus-outline/7.4.47/64.png "account-box-minus-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Account / User*
+  ///
+  /// *Styles: account, minus, outline*
+  ///
+  accountBoxMinusOutline(
+      codePoint: 990409,
+      metadata: MdiMetadata(
+        name: 'account-box-minus-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Account / User'],
+        styles: [
+          'account',
+          'minus',
+          'outline',
+        ],
+      )),
+
   /// **account-box-multiple**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/account-box-multiple/2.4.85/64.png "account-box-multiple")
@@ -748,6 +802,33 @@ enum MdiIcons implements IconData {
         styles: [
           'box',
           'outline',
+        ],
+      )),
+
+  /// **account-box-plus-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/account-box-plus-outline/7.4.47/64.png "account-box-plus-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Account / User*
+  ///
+  /// *Styles: account, outline, plus*
+  ///
+  accountBoxPlusOutline(
+      codePoint: 990410,
+      metadata: MdiMetadata(
+        name: 'account-box-plus-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Account / User'],
+        styles: [
+          'account',
+          'outline',
+          'plus',
         ],
       )),
 
@@ -1475,13 +1556,15 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.3.67*
   ///
+  /// *Tags: Account / User*
+  ///
   accountFile(
       codePoint: 990375,
       metadata: MdiMetadata(
         name: 'account-file',
         version: '7.3.67',
         author: 'Contributors',
-        tags: null,
+        tags: ['Account / User'],
         styles: null,
       )),
 
@@ -1494,13 +1577,15 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.3.67*
   ///
+  /// *Tags: Account / User*
+  ///
   accountFileOutline(
       codePoint: 990376,
       metadata: MdiMetadata(
         name: 'account-file-outline',
         version: '7.3.67',
         author: 'Contributors',
-        tags: null,
+        tags: ['Account / User'],
         styles: null,
       )),
 
@@ -1513,13 +1598,15 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.3.67*
   ///
+  /// *Tags: Account / User*
+  ///
   accountFileText(
       codePoint: 990377,
       metadata: MdiMetadata(
         name: 'account-file-text',
         version: '7.3.67',
         author: 'Contributors',
-        tags: null,
+        tags: ['Account / User'],
         styles: null,
       )),
 
@@ -1532,13 +1619,15 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.3.67*
   ///
+  /// *Tags: Account / User*
+  ///
   accountFileTextOutline(
       codePoint: 990378,
       metadata: MdiMetadata(
         name: 'account-file-text-outline',
         version: '7.3.67',
         author: 'Contributors',
-        tags: null,
+        tags: ['Account / User'],
         styles: null,
       )),
 
@@ -23908,6 +23997,25 @@ enum MdiIcons implements IconData {
         styles: ['variant'],
       )),
 
+  /// **book-open-blank-variant-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/book-open-blank-variant-outline/7.4.47/64.png "book-open-blank-variant-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  bookOpenBlankVariantOutline(
+      codePoint: 990411,
+      metadata: MdiMetadata(
+        name: 'book-open-blank-variant-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: null,
+      )),
+
   /// **book-open-outline**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/book-open-outline/3.0.39/64.png "book-open-outline")
@@ -23993,6 +24101,30 @@ enum MdiIcons implements IconData {
         author: 'Google',
         tags: null,
         styles: ['variant'],
+      )),
+
+  /// **book-open-variant-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/book-open-variant-outline/7.4.47/64.png "book-open-variant-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Styles: outline, variant*
+  ///
+  bookOpenVariantOutline(
+      codePoint: 990412,
+      metadata: MdiMetadata(
+        name: 'book-open-variant-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: [
+          'outline',
+          'variant',
+        ],
       )),
 
   /// **book-outline**
@@ -35284,13 +35416,15 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.3.67*
   ///
+  /// *Tags: Banking*
+  ///
   cashEdit(
       codePoint: 990379,
       metadata: MdiMetadata(
         name: 'cash-edit',
         version: '7.3.67',
         author: 'Jeff Anders',
-        tags: null,
+        tags: ['Banking'],
         styles: null,
       )),
 
@@ -36952,6 +37086,55 @@ enum MdiIcons implements IconData {
         author: 'Google',
         tags: ['Math'],
         styles: ['box'],
+      )),
+
+  /// **chart-box-multiple**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/chart-box-multiple/7.4.47/64.png "chart-box-multiple")
+  ///
+  ///
+  /// *Author: Konstantin Saller*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Math*
+  ///
+  /// *Styles: multiple*
+  ///
+  chartBoxMultiple(
+      codePoint: 990413,
+      metadata: MdiMetadata(
+        name: 'chart-box-multiple',
+        version: '7.4.47',
+        author: 'Konstantin Saller',
+        tags: ['Math'],
+        styles: ['multiple'],
+      )),
+
+  /// **chart-box-multiple-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/chart-box-multiple-outline/7.4.47/64.png "chart-box-multiple-outline")
+  ///
+  ///
+  /// *Author: Konstantin Saller*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Math*
+  ///
+  /// *Styles: multiple, outline*
+  ///
+  chartBoxMultipleOutline(
+      codePoint: 990414,
+      metadata: MdiMetadata(
+        name: 'chart-box-multiple-outline',
+        version: '7.4.47',
+        author: 'Konstantin Saller',
+        tags: ['Math'],
+        styles: [
+          'multiple',
+          'outline',
+        ],
       )),
 
   /// **chart-box-outline**
@@ -54957,6 +55140,32 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **diaper-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/diaper-outline/7.4.47/64.png "diaper-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Clothing, Medical / Hospital*
+  ///
+  /// *Styles: outline*
+  ///
+  diaperOutline(
+      codePoint: 990415,
+      metadata: MdiMetadata(
+        name: 'diaper-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Clothing',
+          'Medical / Hospital',
+        ],
+        styles: ['outline'],
+      )),
+
   /// **dice-1**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/dice-1/1.5.54/64.png "dice-1")
@@ -57259,6 +57468,30 @@ enum MdiIcons implements IconData {
         author: 'GreenTurtwig',
         tags: null,
         styles: null,
+      )),
+
+  /// **download-multiple-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/download-multiple-outline/7.4.47/64.png "download-multiple-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Styles: multiple, outline*
+  ///
+  downloadMultipleOutline(
+      codePoint: 990416,
+      metadata: MdiMetadata(
+        name: 'download-multiple-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: [
+          'multiple',
+          'outline',
+        ],
       )),
 
   /// **download-network**
@@ -61150,6 +61383,27 @@ enum MdiIcons implements IconData {
         author: 'Simran',
         tags: null,
         styles: null,
+      )),
+
+  /// **ethernet-off**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/ethernet-off/7.4.47/64.png "ethernet-off")
+  ///
+  ///
+  /// *Author: Colton Wiscombe*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Styles: off*
+  ///
+  ethernetOff(
+      codePoint: 990417,
+      metadata: MdiMetadata(
+        name: 'ethernet-off',
+        version: '7.4.47',
+        author: 'Colton Wiscombe',
+        tags: null,
+        styles: ['off'],
       )),
 
   /// **ev-plug-ccs1**
@@ -90043,6 +90297,1411 @@ enum MdiIcons implements IconData {
         styles: ['off'],
       )),
 
+  /// **invoice**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice/7.4.47/64.png "invoice")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking*
+  ///
+  invoice(
+      codePoint: 990418,
+      metadata: MdiMetadata(
+        name: 'invoice',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Banking'],
+        styles: null,
+      )),
+
+  /// **invoice-arrow-left**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-arrow-left/7.4.47/64.png "invoice-arrow-left")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: arrow*
+  ///
+  invoiceArrowLeft(
+      codePoint: 990419,
+      metadata: MdiMetadata(
+        name: 'invoice-arrow-left',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['arrow'],
+      )),
+
+  /// **invoice-arrow-left-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-arrow-left-outline/7.4.47/64.png "invoice-arrow-left-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Styles: arrow, outline*
+  ///
+  invoiceArrowLeftOutline(
+      codePoint: 990420,
+      metadata: MdiMetadata(
+        name: 'invoice-arrow-left-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: [
+          'arrow',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-arrow-right**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-arrow-right/7.4.47/64.png "invoice-arrow-right")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: arrow*
+  ///
+  invoiceArrowRight(
+      codePoint: 990421,
+      metadata: MdiMetadata(
+        name: 'invoice-arrow-right',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['arrow'],
+      )),
+
+  /// **invoice-arrow-right-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-arrow-right-outline/7.4.47/64.png "invoice-arrow-right-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: arrow, outline*
+  ///
+  invoiceArrowRightOutline(
+      codePoint: 990422,
+      metadata: MdiMetadata(
+        name: 'invoice-arrow-right-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'arrow',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-check**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-check/7.4.47/64.png "invoice-check")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: check*
+  ///
+  invoiceCheck(
+      codePoint: 990423,
+      metadata: MdiMetadata(
+        name: 'invoice-check',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['check'],
+      )),
+
+  /// **invoice-check-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-check-outline/7.4.47/64.png "invoice-check-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking*
+  ///
+  /// *Styles: check, outline*
+  ///
+  invoiceCheckOutline(
+      codePoint: 990424,
+      metadata: MdiMetadata(
+        name: 'invoice-check-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Banking'],
+        styles: [
+          'check',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-clock**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-clock/7.4.47/64.png "invoice-clock")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: clock*
+  ///
+  invoiceClock(
+      codePoint: 990425,
+      metadata: MdiMetadata(
+        name: 'invoice-clock',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['clock'],
+      )),
+
+  /// **invoice-clock-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-clock-outline/7.4.47/64.png "invoice-clock-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: clock, outline*
+  ///
+  invoiceClockOutline(
+      codePoint: 990426,
+      metadata: MdiMetadata(
+        name: 'invoice-clock-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'clock',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-edit**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-edit/7.4.47/64.png "invoice-edit")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: edit*
+  ///
+  invoiceEdit(
+      codePoint: 990427,
+      metadata: MdiMetadata(
+        name: 'invoice-edit',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['edit'],
+      )),
+
+  /// **invoice-edit-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-edit-outline/7.4.47/64.png "invoice-edit-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: edit, outline*
+  ///
+  invoiceEditOutline(
+      codePoint: 990428,
+      metadata: MdiMetadata(
+        name: 'invoice-edit-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'edit',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-export-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-export-outline/7.4.47/64.png "invoice-export-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline*
+  ///
+  invoiceExportOutline(
+      codePoint: 990429,
+      metadata: MdiMetadata(
+        name: 'invoice-export-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['outline'],
+      )),
+
+  /// **invoice-fast**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-fast/7.4.47/64.png "invoice-fast")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  invoiceFast(
+      codePoint: 990430,
+      metadata: MdiMetadata(
+        name: 'invoice-fast',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: null,
+      )),
+
+  /// **invoice-fast-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-fast-outline/7.4.47/64.png "invoice-fast-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline*
+  ///
+  invoiceFastOutline(
+      codePoint: 990431,
+      metadata: MdiMetadata(
+        name: 'invoice-fast-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['outline'],
+      )),
+
+  /// **invoice-import**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-import/7.4.47/64.png "invoice-import")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  invoiceImport(
+      codePoint: 990432,
+      metadata: MdiMetadata(
+        name: 'invoice-import',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: null,
+      )),
+
+  /// **invoice-import-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-import-outline/7.4.47/64.png "invoice-import-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline*
+  ///
+  invoiceImportOutline(
+      codePoint: 990433,
+      metadata: MdiMetadata(
+        name: 'invoice-import-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['outline'],
+      )),
+
+  /// **invoice-list**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-list/7.4.47/64.png "invoice-list")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  invoiceList(
+      codePoint: 990434,
+      metadata: MdiMetadata(
+        name: 'invoice-list',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: null,
+      )),
+
+  /// **invoice-list-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-list-outline/7.4.47/64.png "invoice-list-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Shopping, Banking*
+  ///
+  /// *Styles: outline*
+  ///
+  invoiceListOutline(
+      codePoint: 990435,
+      metadata: MdiMetadata(
+        name: 'invoice-list-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Shopping',
+          'Banking',
+        ],
+        styles: ['outline'],
+      )),
+
+  /// **invoice-minus**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-minus/7.4.47/64.png "invoice-minus")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking*
+  ///
+  invoiceMinus(
+      codePoint: 990436,
+      metadata: MdiMetadata(
+        name: 'invoice-minus',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Banking'],
+        styles: null,
+      )),
+
+  /// **invoice-minus-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-minus-outline/7.4.47/64.png "invoice-minus-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: minus, outline*
+  ///
+  invoiceMinusOutline(
+      codePoint: 990437,
+      metadata: MdiMetadata(
+        name: 'invoice-minus-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'minus',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-multiple**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-multiple/7.4.47/64.png "invoice-multiple")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: multiple*
+  ///
+  invoiceMultiple(
+      codePoint: 990438,
+      metadata: MdiMetadata(
+        name: 'invoice-multiple',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['multiple'],
+      )),
+
+  /// **invoice-multiple-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-multiple-outline/7.4.47/64.png "invoice-multiple-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: multiple, outline*
+  ///
+  invoiceMultipleOutline(
+      codePoint: 990439,
+      metadata: MdiMetadata(
+        name: 'invoice-multiple-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'multiple',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-outline/7.4.47/64.png "invoice-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline*
+  ///
+  invoiceOutline(
+      codePoint: 990440,
+      metadata: MdiMetadata(
+        name: 'invoice-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['outline'],
+      )),
+
+  /// **invoice-plus**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-plus/7.4.47/64.png "invoice-plus")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: plus*
+  ///
+  invoicePlus(
+      codePoint: 990441,
+      metadata: MdiMetadata(
+        name: 'invoice-plus',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['plus'],
+      )),
+
+  /// **invoice-plus-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-plus-outline/7.4.47/64.png "invoice-plus-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline, plus*
+  ///
+  invoicePlusOutline(
+      codePoint: 990442,
+      metadata: MdiMetadata(
+        name: 'invoice-plus-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'outline',
+          'plus',
+        ],
+      )),
+
+  /// **invoice-remove**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-remove/7.4.47/64.png "invoice-remove")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: remove*
+  ///
+  invoiceRemove(
+      codePoint: 990443,
+      metadata: MdiMetadata(
+        name: 'invoice-remove',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['remove'],
+      )),
+
+  /// **invoice-remove-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-remove-outline/7.4.47/64.png "invoice-remove-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline, remove*
+  ///
+  invoiceRemoveOutline(
+      codePoint: 990444,
+      metadata: MdiMetadata(
+        name: 'invoice-remove-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'outline',
+          'remove',
+        ],
+      )),
+
+  /// **invoice-send**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-send/7.4.47/64.png "invoice-send")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: send*
+  ///
+  invoiceSend(
+      codePoint: 990445,
+      metadata: MdiMetadata(
+        name: 'invoice-send',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['send'],
+      )),
+
+  /// **invoice-send-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-send-outline/7.4.47/64.png "invoice-send-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline, send*
+  ///
+  invoiceSendOutline(
+      codePoint: 990446,
+      metadata: MdiMetadata(
+        name: 'invoice-send-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'outline',
+          'send',
+        ],
+      )),
+
+  /// **invoice-text**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text/7.4.47/64.png "invoice-text")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking*
+  ///
+  invoiceText(
+      codePoint: 990447,
+      metadata: MdiMetadata(
+        name: 'invoice-text',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Banking'],
+        styles: null,
+      )),
+
+  /// **invoice-text-arrow-left**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-arrow-left/7.4.47/64.png "invoice-text-arrow-left")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  invoiceTextArrowLeft(
+      codePoint: 990448,
+      metadata: MdiMetadata(
+        name: 'invoice-text-arrow-left',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: null,
+      )),
+
+  /// **invoice-text-arrow-left-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-arrow-left-outline/7.4.47/64.png "invoice-text-arrow-left-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: arrow, outline*
+  ///
+  invoiceTextArrowLeftOutline(
+      codePoint: 990449,
+      metadata: MdiMetadata(
+        name: 'invoice-text-arrow-left-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'arrow',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-text-arrow-right**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-arrow-right/7.4.47/64.png "invoice-text-arrow-right")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: arrow*
+  ///
+  invoiceTextArrowRight(
+      codePoint: 990450,
+      metadata: MdiMetadata(
+        name: 'invoice-text-arrow-right',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['arrow'],
+      )),
+
+  /// **invoice-text-arrow-right-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-arrow-right-outline/7.4.47/64.png "invoice-text-arrow-right-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Shopping, Banking*
+  ///
+  /// *Styles: arrow, outline*
+  ///
+  invoiceTextArrowRightOutline(
+      codePoint: 990451,
+      metadata: MdiMetadata(
+        name: 'invoice-text-arrow-right-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Shopping',
+          'Banking',
+        ],
+        styles: [
+          'arrow',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-text-check**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-check/7.4.47/64.png "invoice-text-check")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: check*
+  ///
+  invoiceTextCheck(
+      codePoint: 990452,
+      metadata: MdiMetadata(
+        name: 'invoice-text-check',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['check'],
+      )),
+
+  /// **invoice-text-check-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-check-outline/7.4.47/64.png "invoice-text-check-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: check, outline*
+  ///
+  invoiceTextCheckOutline(
+      codePoint: 990453,
+      metadata: MdiMetadata(
+        name: 'invoice-text-check-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'check',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-text-clock**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-clock/7.4.47/64.png "invoice-text-clock")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: clock*
+  ///
+  invoiceTextClock(
+      codePoint: 990454,
+      metadata: MdiMetadata(
+        name: 'invoice-text-clock',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['clock'],
+      )),
+
+  /// **invoice-text-clock-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-clock-outline/7.4.47/64.png "invoice-text-clock-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: clock, outline*
+  ///
+  invoiceTextClockOutline(
+      codePoint: 990455,
+      metadata: MdiMetadata(
+        name: 'invoice-text-clock-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'clock',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-text-edit**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-edit/7.4.47/64.png "invoice-text-edit")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: edit*
+  ///
+  invoiceTextEdit(
+      codePoint: 990456,
+      metadata: MdiMetadata(
+        name: 'invoice-text-edit',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['edit'],
+      )),
+
+  /// **invoice-text-edit-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-edit-outline/7.4.47/64.png "invoice-text-edit-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: edit, outline*
+  ///
+  invoiceTextEditOutline(
+      codePoint: 990457,
+      metadata: MdiMetadata(
+        name: 'invoice-text-edit-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'edit',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-text-fast**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-fast/7.4.47/64.png "invoice-text-fast")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  invoiceTextFast(
+      codePoint: 990458,
+      metadata: MdiMetadata(
+        name: 'invoice-text-fast',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: null,
+      )),
+
+  /// **invoice-text-fast-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-fast-outline/7.4.47/64.png "invoice-text-fast-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline*
+  ///
+  invoiceTextFastOutline(
+      codePoint: 990459,
+      metadata: MdiMetadata(
+        name: 'invoice-text-fast-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['outline'],
+      )),
+
+  /// **invoice-text-minus**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-minus/7.4.47/64.png "invoice-text-minus")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: minus*
+  ///
+  invoiceTextMinus(
+      codePoint: 990460,
+      metadata: MdiMetadata(
+        name: 'invoice-text-minus',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['minus'],
+      )),
+
+  /// **invoice-text-minus-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-minus-outline/7.4.47/64.png "invoice-text-minus-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: minus, outline*
+  ///
+  invoiceTextMinusOutline(
+      codePoint: 990461,
+      metadata: MdiMetadata(
+        name: 'invoice-text-minus-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'minus',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-text-multiple**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-multiple/7.4.47/64.png "invoice-text-multiple")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: multiple*
+  ///
+  invoiceTextMultiple(
+      codePoint: 990462,
+      metadata: MdiMetadata(
+        name: 'invoice-text-multiple',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['multiple'],
+      )),
+
+  /// **invoice-text-multiple-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-multiple-outline/7.4.47/64.png "invoice-text-multiple-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: multiple, outline*
+  ///
+  invoiceTextMultipleOutline(
+      codePoint: 990463,
+      metadata: MdiMetadata(
+        name: 'invoice-text-multiple-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'multiple',
+          'outline',
+        ],
+      )),
+
+  /// **invoice-text-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-outline/7.4.47/64.png "invoice-text-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline*
+  ///
+  invoiceTextOutline(
+      codePoint: 990464,
+      metadata: MdiMetadata(
+        name: 'invoice-text-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['outline'],
+      )),
+
+  /// **invoice-text-plus**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-plus/7.4.47/64.png "invoice-text-plus")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: plus*
+  ///
+  invoiceTextPlus(
+      codePoint: 990465,
+      metadata: MdiMetadata(
+        name: 'invoice-text-plus',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['plus'],
+      )),
+
+  /// **invoice-text-plus-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-plus-outline/7.4.47/64.png "invoice-text-plus-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline, plus*
+  ///
+  invoiceTextPlusOutline(
+      codePoint: 990466,
+      metadata: MdiMetadata(
+        name: 'invoice-text-plus-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'outline',
+          'plus',
+        ],
+      )),
+
+  /// **invoice-text-remove**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-remove/7.4.47/64.png "invoice-text-remove")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: remove*
+  ///
+  invoiceTextRemove(
+      codePoint: 990467,
+      metadata: MdiMetadata(
+        name: 'invoice-text-remove',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['remove'],
+      )),
+
+  /// **invoice-text-remove-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-remove-outline/7.4.47/64.png "invoice-text-remove-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline, remove*
+  ///
+  invoiceTextRemoveOutline(
+      codePoint: 990468,
+      metadata: MdiMetadata(
+        name: 'invoice-text-remove-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'outline',
+          'remove',
+        ],
+      )),
+
+  /// **invoice-text-send**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-send/7.4.47/64.png "invoice-text-send")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: send*
+  ///
+  invoiceTextSend(
+      codePoint: 990469,
+      metadata: MdiMetadata(
+        name: 'invoice-text-send',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: ['send'],
+      )),
+
+  /// **invoice-text-send-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/invoice-text-send-outline/7.4.47/64.png "invoice-text-send-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Banking, Shopping*
+  ///
+  /// *Styles: outline, send*
+  ///
+  invoiceTextSendOutline(
+      codePoint: 990470,
+      metadata: MdiMetadata(
+        name: 'invoice-text-send-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: [
+          'Banking',
+          'Shopping',
+        ],
+        styles: [
+          'outline',
+          'send',
+        ],
+      )),
+
   /// **iobroker**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/iobroker/4.8.95/64.png "iobroker")
@@ -104179,6 +105838,46 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **mouse-left-click**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/mouse-left-click/7.4.47/64.png "mouse-left-click")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  mouseLeftClick(
+      codePoint: 990471,
+      metadata: MdiMetadata(
+        name: 'mouse-left-click',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **mouse-left-click-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/mouse-left-click-outline/7.4.47/64.png "mouse-left-click-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Styles: outline*
+  ///
+  mouseLeftClickOutline(
+      codePoint: 990472,
+      metadata: MdiMetadata(
+        name: 'mouse-left-click-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: ['outline'],
+      )),
+
   /// **mouse-move-down**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/mouse-move-down/5.5.55/64.png "mouse-move-down")
@@ -104251,6 +105950,86 @@ enum MdiIcons implements IconData {
         name: 'mouse-off',
         version: '1.5.54',
         author: 'Austin Andrews',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **mouse-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/mouse-outline/7.4.47/64.png "mouse-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Styles: outline*
+  ///
+  mouseOutline(
+      codePoint: 990473,
+      metadata: MdiMetadata(
+        name: 'mouse-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: ['outline'],
+      )),
+
+  /// **mouse-right-click**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/mouse-right-click/7.4.47/64.png "mouse-right-click")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  mouseRightClick(
+      codePoint: 990474,
+      metadata: MdiMetadata(
+        name: 'mouse-right-click',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: null,
+      )),
+
+  /// **mouse-right-click-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/mouse-right-click-outline/7.4.47/64.png "mouse-right-click-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Styles: outline*
+  ///
+  mouseRightClickOutline(
+      codePoint: 990475,
+      metadata: MdiMetadata(
+        name: 'mouse-right-click-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: ['outline'],
+      )),
+
+  /// **mouse-scroll-wheel**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/mouse-scroll-wheel/7.4.47/64.png "mouse-scroll-wheel")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  mouseScrollWheel(
+      codePoint: 990476,
+      metadata: MdiMetadata(
+        name: 'mouse-scroll-wheel',
+        version: '7.4.47',
+        author: 'Jeff Anders',
         tags: null,
         styles: null,
       )),
@@ -121804,6 +123583,25 @@ enum MdiIcons implements IconData {
         styles: ['star'],
       )),
 
+  /// **progress-tag**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/progress-tag/7.4.47/64.png "progress-tag")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  progressTag(
+      codePoint: 990477,
+      metadata: MdiMetadata(
+        name: 'progress-tag',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: null,
+      )),
+
   /// **progress-upload**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/progress-upload/2.4.85/64.png "progress-upload")
@@ -122991,6 +124789,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 3.3.92*
   ///
+  @Deprecated(
+      'This icon has been marked as deprecated by the Material Design Icons project')
   quora(
       codePoint: 986409,
       metadata: MdiMetadata(
@@ -123910,13 +125710,15 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 2.1.19*
   ///
+  /// *Tags: Banking*
+  ///
   receipt(
       codePoint: 985124,
       metadata: MdiMetadata(
         name: 'receipt',
         version: '2.1.19',
         author: 'Michael Irigoyen',
-        tags: null,
+        tags: ['Banking'],
         styles: null,
       )),
 
@@ -123974,6 +125776,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 1.5.54*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: outline, variant*
   ///
   receiptOutline(
@@ -123982,7 +125786,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-outline',
         version: '1.5.54',
         author: 'Michael Irigoyen',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'outline',
           'variant',
@@ -124043,13 +125847,15 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 1.5.54*
   ///
+  /// *Tags: Banking*
+  ///
   receiptText(
       codePoint: 984137,
       metadata: MdiMetadata(
         name: 'receipt-text',
         version: '1.5.54',
         author: 'Google',
-        tags: null,
+        tags: ['Banking'],
         styles: null,
       )),
 
@@ -124062,6 +125868,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.2.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: arrow*
   ///
   receiptTextArrowLeft(
@@ -124070,7 +125878,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-arrow-left',
         version: '7.2.96',
         author: 'Jeff Anders',
-        tags: null,
+        tags: ['Banking'],
         styles: ['arrow'],
       )),
 
@@ -124083,6 +125891,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.2.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: arrow, outline*
   ///
   receiptTextArrowLeftOutline(
@@ -124091,7 +125901,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-arrow-left-outline',
         version: '7.2.96',
         author: 'Jeff Anders',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'arrow',
           'outline',
@@ -124107,6 +125917,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.2.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: arrow*
   ///
   receiptTextArrowRight(
@@ -124115,7 +125927,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-arrow-right',
         version: '7.2.96',
         author: 'Jeff Anders',
-        tags: null,
+        tags: ['Banking'],
         styles: ['arrow'],
       )),
 
@@ -124128,6 +125940,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.2.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: arrow, outline*
   ///
   receiptTextArrowRightOutline(
@@ -124136,7 +125950,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-arrow-right-outline',
         version: '7.2.96',
         author: 'Jeff Anders',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'arrow',
           'outline',
@@ -124152,6 +125966,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 6.7.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: check, variant*
   ///
   receiptTextCheck(
@@ -124160,7 +125976,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-check',
         version: '6.7.96',
         author: 'Simran',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'check',
           'variant',
@@ -124176,6 +125992,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 6.7.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: check, outline, variant*
   ///
   receiptTextCheckOutline(
@@ -124184,7 +126002,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-check-outline',
         version: '6.7.96',
         author: 'Michael Irigoyen',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'check',
           'outline',
@@ -124201,6 +126019,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.2.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: clock*
   ///
   receiptTextClock(
@@ -124209,7 +126029,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-clock',
         version: '7.2.96',
         author: 'Jeff Anders',
-        tags: null,
+        tags: ['Banking'],
         styles: ['clock'],
       )),
 
@@ -124222,6 +126042,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.2.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: clock, outline*
   ///
   receiptTextClockOutline(
@@ -124230,7 +126052,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-clock-outline',
         version: '7.2.96',
         author: 'Jeff Anders',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'clock',
           'outline',
@@ -124246,6 +126068,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.2.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: edit*
   ///
   receiptTextEdit(
@@ -124254,7 +126078,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-edit',
         version: '7.2.96',
         author: 'Jeff Anders',
-        tags: null,
+        tags: ['Banking'],
         styles: ['edit'],
       )),
 
@@ -124267,6 +126091,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.2.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: edit, outline*
   ///
   receiptTextEditOutline(
@@ -124275,7 +126101,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-edit-outline',
         version: '7.2.96',
         author: 'Jeff Anders',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'edit',
           'outline',
@@ -124291,6 +126117,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 6.7.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: minus, variant*
   ///
   receiptTextMinus(
@@ -124299,7 +126127,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-minus',
         version: '6.7.96',
         author: 'Simran',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'minus',
           'variant',
@@ -124315,6 +126143,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 6.7.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: minus, outline, variant*
   ///
   receiptTextMinusOutline(
@@ -124323,7 +126153,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-minus-outline',
         version: '6.7.96',
         author: 'Michael Irigoyen',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'minus',
           'outline',
@@ -124340,6 +126170,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 6.6.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: outline, variant*
   ///
   receiptTextOutline(
@@ -124348,7 +126180,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-outline',
         version: '6.6.96',
         author: 'Google',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'outline',
           'variant',
@@ -124364,6 +126196,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 6.7.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: plus, variant*
   ///
   receiptTextPlus(
@@ -124372,7 +126206,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-plus',
         version: '6.7.96',
         author: 'Simran',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'plus',
           'variant',
@@ -124388,6 +126222,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 6.7.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: outline, plus, variant*
   ///
   receiptTextPlusOutline(
@@ -124396,7 +126232,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-plus-outline',
         version: '6.7.96',
         author: 'Michael Irigoyen',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'outline',
           'plus',
@@ -124413,6 +126249,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 6.7.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: remove, variant*
   ///
   receiptTextRemove(
@@ -124421,7 +126259,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-remove',
         version: '6.7.96',
         author: 'Simran',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'remove',
           'variant',
@@ -124437,6 +126275,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 6.7.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: outline, remove, variant*
   ///
   receiptTextRemoveOutline(
@@ -124445,7 +126285,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-remove-outline',
         version: '6.7.96',
         author: 'Michael Irigoyen',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'outline',
           'remove',
@@ -124462,6 +126302,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.2.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: send*
   ///
   receiptTextSend(
@@ -124470,7 +126312,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-send',
         version: '7.2.96',
         author: 'Jeff Anders',
-        tags: null,
+        tags: ['Banking'],
         styles: ['send'],
       )),
 
@@ -124483,6 +126325,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.2.96*
   ///
+  /// *Tags: Banking*
+  ///
   /// *Styles: outline, send*
   ///
   receiptTextSendOutline(
@@ -124491,7 +126335,7 @@ enum MdiIcons implements IconData {
         name: 'receipt-text-send-outline',
         version: '7.2.96',
         author: 'Jeff Anders',
-        tags: null,
+        tags: ['Banking'],
         styles: [
           'outline',
           'send',
@@ -125879,13 +127723,15 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.1.96*
   ///
+  /// *Tags: Edit / Modify*
+  ///
   rename(
       codePoint: 990232,
       metadata: MdiMetadata(
         name: 'rename',
         version: '7.1.96',
         author: 'Google',
-        tags: null,
+        tags: ['Edit / Modify'],
         styles: null,
       )),
 
@@ -125898,6 +127744,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 1.5.54*
   ///
+  /// *Tags: Edit / Modify*
+  ///
   /// *Styles: box*
   ///
   renameBox(
@@ -125906,7 +127754,7 @@ enum MdiIcons implements IconData {
         name: 'rename-box',
         version: '1.5.54',
         author: 'frankgrinaert',
-        tags: null,
+        tags: ['Edit / Modify'],
         styles: ['box'],
       )),
 
@@ -125919,6 +127767,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.1.96*
   ///
+  /// *Tags: Edit / Modify*
+  ///
   /// *Styles: box, outline*
   ///
   renameBoxOutline(
@@ -125927,7 +127777,7 @@ enum MdiIcons implements IconData {
         name: 'rename-box-outline',
         version: '7.1.96',
         author: 'Michael Irigoyen',
-        tags: null,
+        tags: ['Edit / Modify'],
         styles: [
           'box',
           'outline',
@@ -125943,6 +127793,8 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 7.1.96*
   ///
+  /// *Tags: Edit / Modify*
+  ///
   /// *Styles: outline*
   ///
   renameOutline(
@@ -125951,7 +127803,7 @@ enum MdiIcons implements IconData {
         name: 'rename-outline',
         version: '7.1.96',
         author: 'Google',
-        tags: null,
+        tags: ['Edit / Modify'],
         styles: ['outline'],
       )),
 
@@ -143543,6 +145395,27 @@ enum MdiIcons implements IconData {
         ],
       )),
 
+  /// **swap-horizontal-hidden**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/swap-horizontal-hidden/7.4.47/64.png "swap-horizontal-hidden")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Arrow*
+  ///
+  swapHorizontalHidden(
+      codePoint: 990478,
+      metadata: MdiMetadata(
+        name: 'swap-horizontal-hidden',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Arrow'],
+        styles: null,
+      )),
+
   /// **swap-horizontal-variant**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/swap-horizontal-variant/2.2.43/64.png "swap-horizontal-variant")
@@ -152577,13 +154450,15 @@ enum MdiIcons implements IconData {
   ///
   /// *Version: 4.1.95*
   ///
+  /// *Tags: Banking*
+  ///
   transfer(
       codePoint: 987237,
       metadata: MdiMetadata(
         name: 'transfer',
         version: '4.1.95',
         author: 'Simran',
-        tags: null,
+        tags: ['Banking'],
         styles: null,
       )),
 
@@ -155059,6 +156934,29 @@ enum MdiIcons implements IconData {
         styles: ['outline'],
       )),
 
+  /// **underwear-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/underwear-outline/7.4.47/64.png "underwear-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Clothing*
+  ///
+  /// *Styles: outline*
+  ///
+  underwearOutline(
+      codePoint: 990479,
+      metadata: MdiMetadata(
+        name: 'underwear-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Clothing'],
+        styles: ['outline'],
+      )),
+
   /// **undo**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/undo/1.5.54/64.png "undo")
@@ -155380,6 +157278,95 @@ enum MdiIcons implements IconData {
         styles: null,
       )),
 
+  /// **upload-box**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/upload-box/7.4.47/64.png "upload-box")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Styles: box*
+  ///
+  uploadBox(
+      codePoint: 990480,
+      metadata: MdiMetadata(
+        name: 'upload-box',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: ['box'],
+      )),
+
+  /// **upload-box-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/upload-box-outline/7.4.47/64.png "upload-box-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Styles: box, outline*
+  ///
+  uploadBoxOutline(
+      codePoint: 990481,
+      metadata: MdiMetadata(
+        name: 'upload-box-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: [
+          'box',
+          'outline',
+        ],
+      )),
+
+  /// **upload-circle**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/upload-circle/7.4.47/64.png "upload-circle")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Styles: circle*
+  ///
+  uploadCircle(
+      codePoint: 990482,
+      metadata: MdiMetadata(
+        name: 'upload-circle',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: ['circle'],
+      )),
+
+  /// **upload-circle-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/upload-circle-outline/7.4.47/64.png "upload-circle-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Files / Folders*
+  ///
+  /// *Styles: outline*
+  ///
+  uploadCircleOutline(
+      codePoint: 990483,
+      metadata: MdiMetadata(
+        name: 'upload-circle-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Files / Folders'],
+        styles: ['outline'],
+      )),
+
   /// **upload-lock**
   ///
   /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/upload-lock/4.9.95/64.png "upload-lock")
@@ -155448,6 +157435,25 @@ enum MdiIcons implements IconData {
         author: 'Michael Richins',
         tags: null,
         styles: ['multiple'],
+      )),
+
+  /// **upload-multiple-outline**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/upload-multiple-outline/7.4.47/64.png "upload-multiple-outline")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  uploadMultipleOutline(
+      codePoint: 990484,
+      metadata: MdiMetadata(
+        name: 'upload-multiple-outline',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: null,
+        styles: null,
       )),
 
   /// **upload-network**
@@ -161429,6 +163435,69 @@ enum MdiIcons implements IconData {
         author: 'Austin Andrews',
         tags: ['Weather'],
         styles: ['outline'],
+      )),
+
+  /// **weather-moonset**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/weather-moonset/7.4.47/64.png "weather-moonset")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Weather*
+  ///
+  weatherMoonset(
+      codePoint: 990485,
+      metadata: MdiMetadata(
+        name: 'weather-moonset',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Weather'],
+        styles: null,
+      )),
+
+  /// **weather-moonset-down**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/weather-moonset-down/7.4.47/64.png "weather-moonset-down")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Weather*
+  ///
+  weatherMoonsetDown(
+      codePoint: 990486,
+      metadata: MdiMetadata(
+        name: 'weather-moonset-down',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Weather'],
+        styles: null,
+      )),
+
+  /// **weather-moonset-up**
+  ///
+  /// ![Icon preview](https://fafre.github.io/flutter_material_design_icons/icons/weather-moonset-up/7.4.47/64.png "weather-moonset-up")
+  ///
+  ///
+  /// *Author: Jeff Anders*
+  ///
+  /// *Version: 7.4.47*
+  ///
+  /// *Tags: Weather*
+  ///
+  weatherMoonsetUp(
+      codePoint: 990487,
+      metadata: MdiMetadata(
+        name: 'weather-moonset-up',
+        version: '7.4.47',
+        author: 'Jeff Anders',
+        tags: ['Weather'],
+        styles: null,
       )),
 
   /// **weather-night**
