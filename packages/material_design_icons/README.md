@@ -1,5 +1,7 @@
 # flutter_material_design_icons
 
+[![Pub Version](https://img.shields.io/pub/v/flutter_material_design_icons)](https://pub.dev/packages/flutter_material_design_icons) [![Pub Points](https://img.shields.io/pub/points/flutter_material_design_icons)](https://pub.dev/packages/flutter_material_design_icons)
+
 This package provides over 7000+ material icons from the [Material Design Icons](https://materialdesignicons.com/) project.
 
 All icons and fonts in this project are [licensed](https://pictogrammers.com/docs/general/license/) under Apache 2.0.
