@@ -1,21 +1,21 @@
 name: rasterizer
 description: A new Flutter project.
 publish_to: "none"
+resolution: workspace
 version: 0.1.0
 
 environment:
-  sdk: ">=3.0.2 <4.0.0"
+  sdk: ^3.5.0
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_material_design_icons:
     path: ../material_design_icons
-  flutter_svg: ^2.0.6
-  path: ^1.8.3
+  flutter_svg: ^2.2.4
+  path: ^1.9.1
 
 dev_dependencies:
-  custom_lint: ^0.5.2
   flutter_test:
     sdk: flutter
-  lint: ^2.1.2
+  lint: ^2.8.0
