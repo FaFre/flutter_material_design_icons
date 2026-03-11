@@ -35,7 +35,8 @@ class IconDataGenerator extends Generator {
           ])
           ..body.addAll([
             MdiMetadataClass().classDefinition,
-            const MdiIconsEnum().generateEnumDefinition(metadataList),
+            const MdiIconsEnum().generateClassDefinition(metadataList),
+            const MdiIconsEnum().generateExtensionDefinition(),
           ]),
       );
 
