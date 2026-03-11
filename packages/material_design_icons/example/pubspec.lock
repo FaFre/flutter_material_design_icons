@@ -132,7 +132,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "1.1.7447"
+    version: "2.0.0+7447"
   flutter_riverpod:
     dependency: transitive
     description:

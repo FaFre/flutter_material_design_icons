@@ -1,3 +1,6 @@
+## 2.0.0+7447
+* Breaking: `MdiIcons` changed from an `enum` to an `abstract class` with `static const` members and `MdiIcons.values`
+
 ## 1.1.7447
 * Upgraded Material Design Icons to v7.4.47
 
