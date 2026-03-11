@@ -62,6 +62,64 @@ class MdiIconsEnum {
     return input;
   }
 
+  Class generateIconDataClassDefinition() {
+    return Class(
+      (b) => b
+        ..name = 'MdiIconData'
+        ..extend = refer('IconData', 'package:flutter/widgets.dart')
+        ..fields.add(
+          Field(
+            (b) => b
+              ..name = 'metadata'
+              ..type = refer('MdiMetadata')
+              ..modifier = FieldModifier.final$,
+          ),
+        )
+        ..constructors.add(
+          Constructor(
+            (b) => b
+              ..constant = true
+              ..requiredParameters.add(
+                Parameter(
+                  (b) => b
+                    ..name = 'codePoint'
+                    ..type = refer('int'),
+                ),
+              )
+              ..optionalParameters.addAll([
+                Parameter(
+                  (b) => b
+                    ..name = 'metadata'
+                    ..named = true
+                    ..required = true
+                    ..toThis = true,
+                ),
+              ])
+              ..initializers.addAll([
+                refer('super').call([
+                  refer('codePoint')
+                ], {
+                  'fontFamily': literalString('Material Design Icons'),
+                  'fontPackage': literalString('flutter_material_design_icons'),
+                }).code,
+              ]),
+          ),
+        )
+        ..methods.add(
+          Method(
+            (b) => b
+              ..name = 'toString'
+              ..returns = refer('String')
+              ..annotations.add(refer('override'))
+              ..lambda = true
+              ..body = const Code(
+                r"'MdiIconData(U+${codePoint.toRadixString(16).toUpperCase().padLeft(5, '0')})'",
+              ),
+          ),
+        ),
+    );
+  }
+
   Class generateClassDefinition(Iterable<IconMetadata> metadataList) {
     final mdiMetadataClass = MdiMetadataClass();
 
@@ -73,14 +131,11 @@ class MdiIconsEnum {
             ..name = name
             ..static = true
             ..modifier = FieldModifier.constant
-            ..type = refer('IconData', 'package:flutter/widgets.dart')
-            ..assignment = refer('IconData', 'package:flutter/widgets.dart')
-                .newInstance([
+            ..type = refer('MdiIconData')
+            ..assignment = refer('MdiIconData').newInstance([
               literalNum(int.parse('0x${metadata.codepoint}')),
             ], {
-              'fontFamily': literalString('Material Design Icons'),
-              'fontPackage': literalString('flutter_material_design_icons'),
-              'matchTextDirection': literalBool(false),
+              'metadata': mdiMetadataClass.generateInstance(metadata)
             }).code
             ..docs.addAll([
               '/// **${metadata.name}**',
@@ -118,27 +173,9 @@ class MdiIconsEnum {
         ..name = 'values'
         ..static = true
         ..modifier = FieldModifier.constant
-        ..type = refer('List<IconData>')
+        ..type = refer('List<MdiIconData>')
         ..assignment = literalList(
           iconFields.map((f) => refer(f.name)).toList(),
-        ).code,
-    );
-
-    final metadataMapField = Field(
-      (b) => b
-        ..name = 'metadata'
-        ..static = true
-        ..modifier = FieldModifier.constant
-        ..type = refer('Map<IconData, MdiMetadata>')
-        ..assignment = literalMap(
-          Map.fromEntries(
-            metadataList.map(
-              (metadata) => MapEntry(
-                refer(_escapeKeyword(_kebabToLowerCamel(metadata.name))),
-                mdiMetadataClass.generateInstance(metadata),
-              ),
-            ),
-          ),
         ).code,
     );
 
@@ -149,25 +186,7 @@ class MdiIconsEnum {
         ..fields.addAll([
           ...iconFields,
           valuesField,
-          metadataMapField,
         ]),
-    );
-  }
-
-  Extension generateExtensionDefinition() {
-    return Extension(
-      (b) => b
-        ..name = 'MdiIconsExtension'
-        ..on = refer('IconData', 'package:flutter/widgets.dart')
-        ..methods.add(
-          Method(
-            (b) => b
-              ..name = 'metadata'
-              ..type = MethodType.getter
-              ..returns = refer('MdiMetadata?')
-              ..body = refer('MdiIcons.metadata').index(refer('this')).code,
-          ),
-        ),
     );
   }
 }

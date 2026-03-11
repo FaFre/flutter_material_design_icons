@@ -7,6 +7,7 @@ import 'package:builder/src/data/builder/mdi_icons_enum.dart';
 import 'package:builder/src/data/builder/mdi_metadata_class.dart';
 import 'package:builder/src/data/icon_metadata.dart';
 import 'package:code_builder/code_builder.dart' show DartEmitter, Library;
+import 'package:package_config/package_config.dart';
 import 'package:source_gen/source_gen.dart';
 
 class IconDataGenerator extends Generator {
@@ -14,9 +15,34 @@ class IconDataGenerator extends Generator {
 
   const IconDataGenerator(this.metadataPath);
 
+  Future<File> _resolveMetadataFile(BuildStep buildStep) async {
+    final packageConfig = await findPackageConfig(Directory.current);
+
+    if (packageConfig == null) {
+      throw StateError('Could not resolve package_config.json');
+    }
+
+    Package? package;
+
+    for (final candidate in packageConfig.packages) {
+      if (candidate.name == buildStep.inputId.package) {
+        package = candidate;
+        break;
+      }
+    }
+
+    if (package == null) {
+      throw StateError(
+        'Could not resolve package root for ${buildStep.inputId.package}',
+      );
+    }
+
+    return File.fromUri(package.root.resolve(metadataPath));
+  }
+
   @override
   FutureOr<String?> generate(LibraryReader library, BuildStep buildStep) async {
-    final metadataFile = File(metadataPath);
+    final metadataFile = await _resolveMetadataFile(buildStep);
 
     if (await metadataFile.exists()) {
       final metadataJson = await metadataFile
@@ -31,12 +57,13 @@ class IconDataGenerator extends Generator {
           ..ignoreForFile.addAll([
             'require_trailing_commas',
             'avoid_escaping_inner_quotes',
-            'unused_element'
+            'unused_element',
+            'use_super_parameters'
           ])
           ..body.addAll([
             MdiMetadataClass().classDefinition,
+            const MdiIconsEnum().generateIconDataClassDefinition(),
             const MdiIconsEnum().generateClassDefinition(metadataList),
-            const MdiIconsEnum().generateExtensionDefinition(),
           ]),
       );
 

@@ -1,0 +1,79 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_material_design_icons",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "builder",
+            "cwd": "packages/builder",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "material_design_icons",
+            "cwd": "packages/material_design_icons",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "material_design_icons (profile mode)",
+            "cwd": "packages/material_design_icons",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "material_design_icons (release mode)",
+            "cwd": "packages/material_design_icons",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "rasterizer",
+            "cwd": "packages/rasterizer",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "rasterizer (profile mode)",
+            "cwd": "packages/rasterizer",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "rasterizer (release mode)",
+            "cwd": "packages/rasterizer",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "example",
+            "cwd": "packages/material_design_icons/example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example (profile mode)",
+            "cwd": "packages/material_design_icons/example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "example (release mode)",
+            "cwd": "packages/material_design_icons/example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

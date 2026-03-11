@@ -118,7 +118,7 @@ class MouseDragScrollBehavior extends MaterialScrollBehavior {
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
-  Widget _buildIconInfo(BuildContext context, MdiIcons icon) {
+  Widget _buildIconInfo(BuildContext context, MdiIconData icon) {
     return Tooltip(
       message: [
         'Author: ${icon.metadata.author}',
