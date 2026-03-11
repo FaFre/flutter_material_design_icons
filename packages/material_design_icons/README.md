@@ -30,7 +30,7 @@ The app is available for web [here](https://fafre.github.io/flutter_material_des
 
 - **Iterable**
 
-  The icons are structured as an `enum` and can therefore be easily itegrated via `MdiIcons.values` for further processing or filtering in your application.
+  The icons are structured as an `abstract class` with `static const IconData` members and can therefore be easily integrated via `MdiIcons.values` for further processing or filtering in your application.
 
 ## Usage
 

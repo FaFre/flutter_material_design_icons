@@ -86,7 +86,7 @@ class FilterBar extends HookConsumerWidget {
                     ),
                   );
                 },
-              )
+              ),
             ],
           ),
         ),
@@ -100,7 +100,7 @@ class FilterBar extends HookConsumerWidget {
                 ? const Icon(Icons.expand_less)
                 : const Icon(Icons.expand_more),
           ),
-        )
+        ),
       ],
     );
   }
@@ -118,7 +118,7 @@ class MouseDragScrollBehavior extends MaterialScrollBehavior {
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
-  Widget _buildIconInfo(BuildContext context, MdiIcons icon) {
+  Widget _buildIconInfo(BuildContext context, IconData icon) {
     return Tooltip(
       message: [
         'Author: ${icon.metadata.author}',
@@ -186,7 +186,7 @@ class MainApp extends StatelessWidget {
                                       textSearchNotifier.clear();
                                     },
                                     icon: const Icon(Icons.clear),
-                                  )
+                                  ),
                                 ]
                               : null,
                           onChanged: (value) {
@@ -212,7 +212,7 @@ class MainApp extends StatelessWidget {
                   const Divider(),
                 ],
               ),
-            )
+            ),
           ],
           body: HookConsumer(
             builder: (context, ref, child) {
