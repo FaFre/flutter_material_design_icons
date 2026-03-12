@@ -1,3 +1,7 @@
+## 3.0.0+7447
+* Breaking: remove `MdiIconData`; `MdiIcons` now exposes `IconData` constants
+* Add metadata lookup via `MdiIcons.maybeMetadataOf` and `IconData` extension getters
+
 ## 2.0.0+7447
 * Breaking: `MdiIcons` changed from an `enum` to an `abstract class` with `static const` members and `MdiIcons.values`
 
