@@ -58,12 +58,14 @@ class IconDataGenerator extends Generator {
             'require_trailing_commas',
             'avoid_escaping_inner_quotes',
             'unused_element',
-            'use_super_parameters'
+            'use_super_parameters',
+            'avoid_classes_with_only_static_members',
+            'prefer_const_constructors',
           ])
           ..body.addAll([
             MdiMetadataClass().classDefinition,
-            const MdiIconsEnum().generateIconDataClassDefinition(),
             const MdiIconsEnum().generateClassDefinition(metadataList),
+            const MdiIconsEnum().generateExtensionDefinition(),
           ]),
       );
 

@@ -47,13 +47,13 @@ class StringFilterNotifier extends Notifier<Set<String>> {
 
 final mdiStylesProvider = Provider(
   (ref) => MdiIcons.values
-      .expand<String>((element) => element.metadata.styles ?? [])
+      .expand<String>((element) => element.mdiMetadata?.styles ?? [])
       .toSet(),
 );
 
 final mdiTagsProvider = Provider(
   (ref) => MdiIcons.values
-      .expand<String>((element) => element.metadata.tags ?? [])
+      .expand<String>((element) => element.mdiMetadata?.tags ?? [])
       .toSet(),
 );
 
@@ -74,15 +74,19 @@ final filteredIconsProvider = Provider((ref) {
   final styleFilters = ref.watch(styleFilterProvider);
   final tagFilters = ref.watch(tagFilterProvider);
 
-  return MdiIcons.values
-      .where(
-        (icon) =>
-            (tokenFilters.isEmpty ||
-                tokenFilters.every(icon.metadata.name.contains)) &&
-            (tagFilters.isEmpty ||
-                (icon.metadata.tags?.any(tagFilters.contains) ?? false)) &&
-            (styleFilters.isEmpty ||
-                (icon.metadata.styles?.any(styleFilters.contains) ?? false)),
-      )
-      .toList(growable: false);
+  return MdiIcons.values.where(
+    (icon) {
+      final metadata = icon.mdiMetadata;
+      if (metadata == null) {
+        return false;
+      }
+
+      return (tokenFilters.isEmpty ||
+              tokenFilters.every(metadata.name.contains)) &&
+          (tagFilters.isEmpty ||
+              (metadata.tags?.any(tagFilters.contains) ?? false)) &&
+          (styleFilters.isEmpty ||
+              (metadata.styles?.any(styleFilters.contains) ?? false));
+    },
+  ).toList(growable: false);
 });

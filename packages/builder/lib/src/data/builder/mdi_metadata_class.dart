@@ -83,7 +83,7 @@ class MdiMetadataClass {
   );
 
   Expression generateInstance(IconMetadata metadata) {
-    return refer(classDefinition.name).newInstance(const Iterable.empty(), {
+    return refer(classDefinition.name).constInstance(const Iterable.empty(), {
       'name': literalString(metadata.name),
       'version': literalString(metadata.version),
       'author': literalString(metadata.author),

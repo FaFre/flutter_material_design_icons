@@ -118,15 +118,15 @@ class MouseDragScrollBehavior extends MaterialScrollBehavior {
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
-  Widget _buildIconInfo(BuildContext context, MdiIconData icon) {
+  Widget _buildIconInfo(BuildContext context, IconData icon) {
+    final metadata = icon.mdiMetadata;
+
     return Tooltip(
       message: [
-        'Author: ${icon.metadata.author}',
-        'Version: ${icon.metadata.version}',
-        if (icon.metadata.tags != null)
-          'Tags: ${icon.metadata.tags!.join(', ')}',
-        if (icon.metadata.styles != null)
-          'Styles: ${icon.metadata.styles!.join(', ')}',
+        if (metadata != null) 'Author: ${metadata.author}',
+        if (metadata != null) 'Version: ${metadata.version}',
+        if (metadata?.tags != null) 'Tags: ${metadata!.tags!.join(', ')}',
+        if (metadata?.styles != null) 'Styles: ${metadata!.styles!.join(', ')}',
       ].join('\n'),
       verticalOffset: 48,
       child: Column(
@@ -137,7 +137,7 @@ class MainApp extends StatelessWidget {
             size: 36,
           ),
           Text(
-            icon.metadata.name,
+            metadata?.name ?? 'Unknown icon',
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.titleSmall,
           ),
