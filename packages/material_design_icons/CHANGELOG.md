@@ -1,3 +1,6 @@
+## 3.1.0+7447
+* Use map lookup instead of `switch` for resolving metadata
+
 ## 3.0.0+7447
 * Breaking: remove `MdiIconData`; `MdiIcons` now exposes `IconData` constants
 * Add metadata lookup via `MdiIcons.maybeMetadataOf` and `IconData` extension getters
