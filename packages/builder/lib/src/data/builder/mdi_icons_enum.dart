@@ -131,6 +131,23 @@ class MdiIconsEnum {
         ).code,
     );
 
+    final metadataMapField = Field(
+      (b) => b
+        ..name = '_metadataByCodePoint'
+        ..static = true
+        ..modifier = FieldModifier.constant
+        ..type = refer('Map<int, MdiMetadata>')
+        ..assignment = Code('''
+{
+${metadataList.map((metadata) {
+          final emitted = _emitExpression(
+            mdiMetadataClass.generateInstance(metadata),
+          ).replaceFirst('const ', '');
+          return '  ${int.parse('0x${metadata.codepoint}')}: $emitted,';
+        }).join('\n')}
+}'''),
+    );
+
     final maybeMetadataOfMethod = Method(
       (b) => b
         ..name = 'maybeMetadataOf'
@@ -143,22 +160,13 @@ class MdiIconsEnum {
               ..type = refer('IconData', 'package:flutter/widgets.dart'),
           ),
         )
-        ..body = Code('''
+        ..body = const Code('''
 if (icon.fontFamily != 'Material Design Icons' ||
     icon.fontPackage != 'flutter_material_design_icons') {
   return null;
 }
 
-switch (icon.codePoint) {
-${metadataList.map((metadata) {
-          final emitted = _emitExpression(
-            mdiMetadataClass.generateInstance(metadata),
-          );
-          return "  case ${int.parse('0x${metadata.codepoint}')}: return $emitted;";
-        }).join('\n')}
-}
-
-return null;
+return _metadataByCodePoint[icon.codePoint];
 '''),
     );
 
@@ -169,6 +177,7 @@ return null;
         ..fields.addAll([
           ...iconFields,
           valuesField,
+          metadataMapField,
         ])
         ..methods.add(maybeMetadataOfMethod),
     );
